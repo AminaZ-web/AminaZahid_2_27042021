@@ -7,6 +7,7 @@ a
 body 
 {
   font-family: 'Raleway', sans-serif;
+  width: auto;
 }
 
 
@@ -16,6 +17,7 @@ body
   margin-left: 5%;
   margin-right: 5%;
   color: black;
+  
 }
 
 h2 {
@@ -54,6 +56,8 @@ nav ul
 {
   display: flex;
   list-style: none;
+  margin-right: 20px;
+  padding-right: 30px;
 }
 
 nav a
@@ -67,12 +71,13 @@ nav a
 {
   color: #0065FC;
   font-weight: bold;
+  margin-left: 30px;
 }
 nav li {
   font-size: 0.8em;
   margin-right: 19px;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: px;
   padding-left: 10%;
 }
 
@@ -80,6 +85,7 @@ nav a:hover
 {
   color:#0065FC;
   border-top: #0065FC 1px solid;
+  padding-top: 20px;
 }
 
 nav a:visited
@@ -92,22 +98,17 @@ nav a:visited
 .accroche
 {
   font-size: 0.8em;
-  margin-top: 0.5%;
+  margin-top: 0.2%;
 }
 
 .titretop
 
 {
   margin-top: 3%;
+  margin-bottom: 0.2%;
 }
 
-span.iconegps {
-  padding: 15px 20px 15px 20px;
-  background: #F2F2F2;
-  font-size: 1.1em;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
+
 
 
 /*Barre de recherche*/
@@ -127,7 +128,7 @@ span.iconegps {
   border: 1px solid #F2F2F2;
   border-right: none;
   padding-left: 3%;
-  height: 51px;
+  height: 40px;
  
   outline: none;
   color: black;
@@ -137,14 +138,25 @@ span.iconegps {
 .bouton {
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
-  height: 51px;
+  height: 40px;
   border: 1px solid #F2F2F2;
   border-right: none;
   border-radius: 0 15px 15px 0;
   color: white;
   background: #0065FC;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
+span.iconegps {
+  display: flex;
+  padding: 10px 13px 15px 17px;
+  background: #F2F2F2;
+  font-size: 1.1em;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  height: 15px;
+}
 
 
 /* Filre */
@@ -156,21 +168,22 @@ li
 
 .nomfiltre
 {
- 
-    border: 2px solid #F2F2F2;
-    border-left: 0px;
-    border-radius: 0px 15px 15px 0px;
-    font-weight: bolder;
-    background-color: white;
-    margin-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px 32px 32px 10px;
+  border: #F2F2F2 3px solid;
+  border-left: none;
+  padding-right: 28px;
+  padding-left: 43px;
+  margin-left: 15px;
 }
 
 .filterbar
 {
   display: flex;
   margin-top: 1%;
+  align-items: baseline;
   
 }
 
@@ -193,12 +206,18 @@ li
 
 span.iconefiltre {
   
-    background: #DEEBFF;
-    color: #0065FC;
-    padding: 15px 15px 15px 15px;
-    border-radius: 50%;
-    height: 13px;
-    margin-right: -12px;
+  color: #0065FC;
+  background-color: #DEEBFF;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -49px;
+  margin-left: 10px;
+
+
 }
 
 
@@ -206,12 +225,17 @@ span.iconefiltre {
 
 span.iconeinfo
 {
-   
-    color: #0065FC;
-    font-size: small;
-    padding: 5px 5px 5px 5px;
-    outline-style:solid;
-    outline-color: #F2F2F2;
+  display: flex;
+  font-size: 0.6em;
+  justify-content: center;
+  width: 2px;
+  color: #0065FC;
+  border: 1px solid #F2F2F2;
+  border-radius: 50%;
+  padding: 8px;
+  margin-top: 8px;
+  height: 2px;
+  align-items: center;
 }
 
 .info
@@ -440,6 +464,15 @@ aside {
   width: 92%;
 }
 
+.sous_gpe_2, .sous_gpe3
+{
+  margin-top: 50px;
+  
+}
+
+
+
+
 .activites
 {
   display: flex;
@@ -456,32 +489,56 @@ aside {
 
 }
 
-.sous_gpe_1
-{
-  width: 20%;
-}
 
 .art
 {
-  background-color: purple;
+  margin-bottom: 40px;
+}
+.art1
+{
+  background-color: white;
   margin-top: 50px;
-  box-shadow: #F2F2F2 0px 5px 2px;
+  border-radius: 15px ;
+  box-shadow: #F2F2F2 0px 0px 5px 3px;
   
+ 
+
 }
 
 .imgart
 {
  display: flex;
- width: 100px;
+ width: 300px;
+ height: 450px;
  flex-direction: column;
  border-radius: 15px 15px 0px 0px;
  padding: 3px;
+}
+
+.imgart2
+{
+  display: flex;
+  width: 200px;
+  height: 100px;
+  border-radius: 15px 15px 0px 0px;
+
+}
+
+.imgart3
+{
+  display: flex;
+  width: 200px;
+  height: 100px;
+  border-radius: 15px 15px 0px 0px;
+
 }
 
 .nomactivite
 {
   font-size: 0.8em;
   font-weight: bold;
+  margin-left: 15px;
+  padding-bottom: 8px;
 }
 
 
@@ -523,4 +580,41 @@ footer p
 .assistance
 {
   width: 30%;
+}
+
+/* Media queries mobile */
+
+@media all and (max-width: 767px)
+{
+  nav
+  {
+      width: auto;
+      text-align: right;
+      
+  }
+  
+  nav ul
+  {
+      flex-direction: column;
+  }
+
+  nav li
+  {
+      padding-left: 4px;
+  }
+  
+  nav a
+  {
+      font-size: 1.1em;
+  }
+  
+  nav a:hover
+  {
+      border-bottom: 0;
+  }
+
+.groupe1
+{
+  display: flex;
+  flex-direction: column;
 }
