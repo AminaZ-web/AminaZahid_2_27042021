@@ -14,8 +14,8 @@ body
 #corps 
 {
   width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
   color: black;
   
 }
@@ -26,6 +26,12 @@ h2 {
 }
 
 /*En haut*/
+
+header
+{
+  padding-top: 10px;
+}
+
 .top-page
 {
   width: auto;
@@ -56,7 +62,7 @@ nav ul
 {
   display: flex;
   list-style: none;
-  margin-right: 20px;
+  margin-right: 60px;
   padding-right: 30px;
 }
 
@@ -65,7 +71,13 @@ nav a
  text-decoration: none;
  display: flex;
  color: black;
+;
  
+}
+
+nav li a {
+  padding-top: 25px;
+  margin-top: -15px;
 }
 .sinscrire
 {
@@ -76,22 +88,20 @@ nav a
 nav li {
   font-size: 0.8em;
   margin-right: 19px;
-  margin-top: 10px;
   margin-left: px;
   padding-left: 10%;
+
 }
+
 
 nav a:hover
 {
-  color:#0065FC;
-  border-top: #0065FC 1px solid;
  
+  border-top: #0065FC 1px solid;
+  color:#0065FC;
 }
 
-nav a:visited
-{ 
-  color:#0065FC;
-}
+
 
 /*block top*/
 
@@ -302,31 +312,36 @@ span.iconeinfo
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-left: 5%;
-  margin-top: 2%;
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-right: 3%;
+
   
+}
+
+.lienh
+{
+  max-width: 300px;
 }
 
 .bloc_h
 {
-  display: flex;
+ display: flex;
   flex-wrap: wrap;
-  
+  justify-content: space-between;
   
 }
-img.imgblanche
-{
-  
-  border-radius:  15px 15px 0px 0px;
-  width: 200px;
-  height: 100px;
+
+img.imgblanche {
+  border-radius: 15px 15px 0px 0px;
+  width: 250px;
+  height: 150px;
   padding: 3px;
-  
 }
 
 .imageh
 {
-  margin-right: 30px;
+ max-width: 100%;
 }
 
 
@@ -421,20 +436,24 @@ aside h1
 
 }
 
+
 .imagep
 {
   display: flex;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 50px;
   
 }
 
 .imgblanchep
 {
   border-radius: 15px 0px 0px 15px;
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   padding-left: 3px;
   padding-top: 3px;
+  
+  
 
 }
 aside {
@@ -444,19 +463,27 @@ aside {
   background-color: #F2F2F2;
   border-radius: 15px 15px 15px 15px;
   padding-left: 3%;
-  padding-right: 5%;
+  padding-right: 3%;
   font-size: 0.9em;
   flex-direction: column;
-  margin-right: 0%;
+  margin-right: 3%;
   margin-left: 3%;
   padding-top: 15px;
   
+  
+}
+
+
+.etoilepopulaire
+{
+  margin-top: 30px;
 }
 
 .etoilep
 {
   margin-top: 9px;
   margin-left: 10px;
+  
 }
 
 
@@ -478,15 +505,12 @@ aside {
   
 }
 
-
-
-
 .activites
 {
   display: flex;
-  margin-left: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
   
- 
 }
 
 .activites h2
@@ -499,18 +523,43 @@ aside {
 
 
 .art
-{
-  margin-bottom: 40px;
-}
+  {
+    margin-bottom: 40px;
+    height: 220px ;
+    width: 300px;
+    padding: 0px 0px  32px 0px;
+    
+  }
+
+
+.imgart3
+  {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+
+  }
+
+
 .art1
 {
   background-color: white;
   margin-top: 50px;
   border-radius: 15px ;
-  box-shadow: #F2F2F2 0px 0px 5px 3px;
-  
- 
+  box-shadow: #F2F2F2 5px 5px 5px 3px;
+  height: 300px;
+  width: 300px;
+  padding: 0px 0px  190px 0px;
 
+ 
+}
+
+.artfrioule {
+  height: 120px;
+  width: 300px;
+  padding: 0px 0px 32px 0px;
+  margin-top: 30px;
 }
 
 .imgart
@@ -520,26 +569,18 @@ aside {
  height: 450px;
  flex-direction: column;
  border-radius: 15px 15px 0px 0px;
- padding: 3px;
 }
 
 .imgart2
 {
   display: flex;
-  width: 200px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   border-radius: 15px 15px 0px 0px;
-
+  box-shadow: #F2F2F2 0px 0px 5px 3px;
 }
 
-.imgart3
-{
-  display: flex;
-  width: 200px;
-  height: 100px;
-  border-radius: 15px 15px 0px 0px;
 
-}
 
 .nomactivite
 {
@@ -551,28 +592,30 @@ aside {
 
 
 
-/* Footer */
+/* Footer desktop */
 
 footer
 {
     display: flex;
-    
-    background-color: #cf4b4b;
+    width: 100%;
+    background-color:#F2F2F2;
     padding-top: 25px;
     padding-left: 40px;
+    
     margin-top: 20px;
 }
+
 footer h1
 {
     font-size: 1em;
 }
 footer p
 {
-  font-size: 0.8em;
+    font-size: 0.8em;
 }
 .propos
 {
-  width: 30%;
+    width: 30%;
   
 }
 .nosheb
@@ -586,433 +629,413 @@ footer p
 
 /* Media queries mobile */
 
-@media all and (max-device-width: 480px)
+@media  (max-width: 480px)
 {
 
 
-body
-{
-  width: auto;
-}
+    .corps
+    {
+      max-width: 1440px;
+    }
 
 
-/*En haut*/
-
-.top-page
-{
-  
-}
-.block-top {
-  
-}
-
-.logo
-
-{
-  
-  width: auto;
-  height: auto;
-}
-
-/*block top*/
-
-.accroche
-{
-  font-size: 0.8em;
-  margin-top: 3%;
-}
-
-.titretop
-
-{
-  
-}
+    /*En haut MQ mobile*/
 
 
-/*Navigation*/
 
+    .logo, .sinscrire
 
-  nav
-  {
+    {
+      display: flex;
       width: auto;
+      height: auto;
+    }
+
+    /*block top MQ mobile*/
+
+    .accroche
+    {
+      font-size: 0.8em;
+      margin-top: 3%;
+    }
+
+
+
+
+    /*Navigation MQ mobile*/
+
+
+      nav
+      {
+          width: auto;
+        
+      }
+      
+      .sinscrire
+      {
+        margin-left: 2%;
+      }
     
+        nav ul
+      {
+          flex-direction:column-reverse;
+      }
 
+      nav li
+      {
+          padding-left: 4px;
+      }
+    
+      nav a
+      {
+          font-size: 1.1em;
+      }
+    
+      nav a:hover
+      {
+          border-bottom: 0;
+      }
 
-  }
-  
-  .sinscrire
-  {
-    margin-left: 2%;
-  }
-  nav ul
-  {
+    .groupe1
+    {
+      display: flex;
       flex-direction: column;
-  }
+    }
 
-  nav li
-  {
-      padding-left: 4px;
-  }
+
+
+    /*Barre de recherche MQ mobile*/
+
+    .BR
+    {
+      
+      margin-top: 5%;
+    }
+
+    .search 
+    {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+      
+        border: 1px solid #F2F2F2;
+        border-right: none;
+        padding-left: 3%;
+        height: 40px;
+      
+        outline: none;
+        color: black;
+    }
+
   
-  nav a
-  {
+    .bouton 
+    {
+      
+        display: none;
+    }
+
+    .loupe
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 10px;
+      color: white;
+      background: #0065FC;
+      border-radius: 11px;
+      border: none;
+      padding: 15px 15px 15px 15px;
+    }
+
+    span.iconegps {
+      display: flex;
+      padding: 10px 13px 15px 17px;
+      background: #F2F2F2;
       font-size: 1.1em;
-  }
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      height: 15px;
+    }
+
+
+
+
+    /*Filtre MQ mobile*/
+
+    li
+    {
+      list-style: none;
+    }
+
+    .mediafiltre1
+    {
+      display: flex;
+      margin-bottom: 5%;
+    }
+
+    .filterbar
+    {
+      display: flex;
+      flex-direction: column;
+      margin-top: 8%;
+    }
+
+    .filtre
+    {
+      
+      font-weight: bold;
+      display: flex;
+      
+    }
+
+    .filtreliste
+    {
+      
+      display: flex;
+      flex-direction: column;
+      font-family: 'Raleway', sans-serif;
+      padding-left: 0%;
+    
+    }
+
+
+    /* Les sections MQ mobile */
+
+    .groupe1
+    {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+
+
+    /* Hebergement  MQ Mobile*/
+
+    .groupe1
+    {
+      display: flex;
+      margin-top: 15px;
+      
+    }
+
+    .hebergement
+    {
+      width: auto;
+      border: none;
+      border-radius: 0%;
+      background-color: white;
+      display: flex;
+      justify-content: flex-start;
+    
+    
+    }
+
+    .hebergement h1
+    {
+      display: flex;
+      font-size: 1em;
+      margin-bottom: 5%;
+      
+    }
+
+
+    .conteneur
+    {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-left: 5%;
+      margin-top: 2%;
+      
+    }
+
+    .bloc_h
+    {
+      display: flex;
+      flex-wrap: wrap;
+    
+    }
+
+    img.imgblanche
+    {
+      
+      border-radius:  15px 15px 0px 0px;
+      width: 100%;
+      height: 100px;
+      padding: 0%;
+      
+    }
+
+    .imageh
+    {
+      margin-right: 0;
+      padding: 5px;
+    }
+
+
+    p a:visited
+    {
+      color: black;
+    }
+
+    .afficher
+    {
+      font-size: 0.8em;
+      margin-top: 3%;
+      font-weight: bold;
+
+    }
+
+    /* hebergement et les + populaire MQ Mobile*/
+
+    .titrehotel
+    {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 12px;
+      font-weight: bold;
+      
+      margin-top: 2px;
+      
+
+    }
+
+
+    article {
+      background-color: white;
+      border-radius: 15px 15px 15px 15px;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      box-shadow: 0px 0px 5px 3px lightgrey;
+    }
+
+    /* Les plus populaires MQ mobile*/
+
+
+    aside h1
+    {
+      
+      font-size: 1em;
+    }
+
+    .iconepop
+    {
+      display: flex;
+      flex-direction:row;
+      justify-content: space-between;
+      
+    }
+
+    .popicone
+    {
+      text-align: center;
+      padding-top: 15px;
+      padding-right: 10px;
+
+    }
+
+
+
+    .imgblanchep
+    {
+      border-radius: 15px 0px 0px 15px;
+      width: 90px;
+      height: 90px;
+      padding-left: 3px;
+      padding-top: 3px;
+
+    }
+    aside 
+    {
+      display: flex;
+      width: auto;
+      border-radius: 0%;
+      padding: 0%;
+     
+    }
+
+    /* Les activités MQ mobile */
+
+    .groupe2
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 15px;
+      margin-left: 0px;
+      width: 92%;
+    }
+
+    .sous_gpe_2, .sous_gpe3
+    {
+      margin-top: 0px;
+      
+    }
+
+    .activites
+    {
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+    .activites h2
+    {
+      color: black;
+      margin-top: 30px;
+      padding-left: 0px;
+
+    }
+
+
+    .art1, .art
+    {
+      background-color: white;
+      margin-top: 0px;
+      border-radius: 15px ;
+      box-shadow: #F2F2F2 0px 0px 5px 3px;
+    }
+
+    .imgart, .imgart2, .imgart3
+    {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100px;
+      border-radius: 15px 15px 0px 0px;
+    }
+
   
-  nav a:hover
+
+  .nomactivite
   {
-      border-bottom: 0;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-bottom: 8px;
   }
 
-.groupe1
-{
-  display: flex;
-  flex-direction: column;
-}
 
+  /* Footer media queries mobile */
 
+  footer
+  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+      background-color: #f2f2f2;
+      padding-top: 25px;
+      padding-left: 40px;
+      margin-top: 20px;
 
-/*Barre de recherche*/
+  }
 
-.BR
-{
   
-  margin-top: 5%;
-}
-
-.search {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
- 
-  border: 1px solid #F2F2F2;
-  border-right: none;
-  padding-left: 3%;
-  height: 40px;
- 
-  outline: none;
-  color: black;
-}
 
  
-.bouton {
-  
-  display: none;
-}
 
-.loupe
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 10px;
-  color: white;
-  background: #0065FC;
-  border-radius: 11px;
-  border: none;
-  padding: 15px 15px 15px 15px;
-}
+ }
 
-span.iconegps {
-  display: flex;
-  padding: 10px 13px 15px 17px;
-  background: #F2F2F2;
-  font-size: 1.1em;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  height: 15px;
-}
-
-
-
-
-/*Filtre*/
-
-li
-{
-  list-style: none;
-}
-
-.mediafiltre1
-{
-  display: flex;
-  margin-bottom: 5%;
-}
-
-.filterbar
-{
-  display: flex;
-  flex-direction: column;
-  margin-top: 8%;
-  
-  
-}
-
-.filtre
-{
-  
-  font-weight: bold;
-  display: flex;
-  
-}
-
-.filtreliste
-{
-  
-  display: flex;
-  flex-direction: column;
-  font-family: 'Raleway', sans-serif;
-  padding-left: 0%;
-  
-
-}
-
-span.iconefiltre {
-  
-
-
-
-}
-
-/* Les sections */
-
-.groupe1
-{
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-
-/* Les étoiles */
-
-.etoilebleu, .etoilegrise
-{
-  font-size: 0.6em;
-}
-
-/* Hebergement */
-
-.groupe1
-{
-  display: flex;
-  margin-top: 15px;
-  
-}
-
-.hebergement
-{
-  width: auto;
-  border: none;
-  border-radius: 0%;
-  background-color: white;
-  display: flex;
-  justify-content: flex-start;
- 
- 
-}
-
-.hebergement h1
-{
-  display: flex;
-  font-size: 1em;
-  margin-bottom: 5%;
-  
-}
-
-
-.conteneur
-{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-left: 5%;
-  margin-top: 2%;
-  
-}
-
-.bloc_h
-{
-  display: flex;
-  flex-wrap: wrap;
-  
-  
-}
-img.imgblanche
-{
-  
-  border-radius:  15px 15px 0px 0px;
-  width: 100%;
-  height: 100px;
-  padding: 0%;
-  
-}
-
-.imageh
-{
-  margin-right: 0;
-  padding: 5px;
-}
-
-
-p a:visited
-{
-  color: black;
-}
-
-.afficher
-{
-  font-size: 0.8em;
-  margin-top: 3%;
-  font-weight: bold;
-
-}
-
-/* hebergement et les + populaire*/
-
-.titrehotel
-{
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 12px;
-  font-weight: bold;
-  
-  margin-top: 2px;
-  
-
-}
-
-
-article {
-  background-color: white;
-  border-radius: 15px 15px 15px 15px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  box-shadow: 0px 0px 5px 3px lightgrey;
-}
-
-/* Les plus populaires */
-
-
-aside h1
-{
-  
-  font-size: 1em;
-}
-
-.iconepop
-{
-  display: flex;
-  flex-direction:row;
-  justify-content: space-between;
-  
-}
-
-.popicone
-{
-  text-align: center;
-  padding-top: 15px;
-  padding-right: 10px;
-
-}
-
-
-
-.imgblanchep
-{
-  border-radius: 15px 0px 0px 15px;
-  width: 90px;
-  height: 90px;
-  padding-left: 3px;
-  padding-top: 3px;
-
-}
-aside {
-  display: flex;
-  width: auto;
-  border-radius: 0%;
-  padding: 0%;
- 
-  
-}
-
-/* Les activités */
-
-.groupe2
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 15px;
-  margin-left: 0px;
-  width: 92%;
-}
-
-.sous_gpe_2, .sous_gpe3
-{
-  margin-top: 0px;
-  
-}
-
-.activites
-{
-  display: flex;
-  flex-direction: column;
-  
- 
-}
-
-.activites h2
-{
-  color: black;
-  margin-top: 30px;
-  padding-left: 0px;
-
-}
-
-
-.art1, .art
-{
-  background-color: white;
-  margin-top: 0px;
-  border-radius: 15px ;
-  box-shadow: #F2F2F2 0px 0px 5px 3px;
-  
- 
-
-}
-
-.imgart, .imgart2, .imgart3
-{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100px;
-  border-radius: 15px 15px 0px 0px;
-}
-
-}
-
-.nomactivite
-{
-  font-size: 0.8em;
-  font-weight: bold;
-  margin-left: 15px;
-  padding-bottom: 8px;
-}
-
-
-/* Footer */
-
-footer
-{
-   display: flex;
-   flex-direction: column;
-    background-color: #F2F2F2;
-    padding-top: 25px;
-    padding-left: 40px;
-    margin-top: 20px;
-
-}
 
 /* Media queries Tablette portrait and ladscape */
 
@@ -1020,63 +1043,92 @@ footer
 
 {
 
-  /* Les + populaires */
+    /* Les + populaires tablette */
 
+  aside {
+    display: flex;
+    width: 40%;
+    position: relative;
+    background-color: #f2f2f2;
+    border-radius: 15px 15px 15px 15px;
+    padding-left: 4%;
+    padding-right: 0%;
+    font-size: 0.9em;
+    flex-direction: column;
+    margin-right: 0%;
+    margin-left: 3%;
+    padding-top: 0px;
+  }
+    
+
+  /* Les activités tablette */
+
+
+  .groupe2
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 80%;
+  }
+
+  .sous_gpe_2, .sous_gpe3, .sous_gpe_1
+  {
+    margin-top: 0px;
+    width: 80%;
+    
+  }
+
+  .activites
+  {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
   
-   
-{
-  
-  font-size: 1em;
-}
+  }
 
-.iconepop
-{
-  display: flex;
-  flex-direction:row;
-  justify-content: space-between;
-  
-}
+  .activites h2
+  {
+    color: black;
+    margin-top: 30px;
+    padding-left: 0px;
 
-.popicone
-{
-  text-align: center;
-  padding-top: 15px;
-  padding-right: 10px;
-
-}
+  }
 
 
-
-.imgblanchep
-{
-  border-radius: 15px 0px 0px 15px;
-  width: 90px;
-  height: 90px;
-  padding-left: 3px;
-  padding-top: 3px;
-
-}
-aside {
-  display: flex;
-  width: 40%;
-  position: relative;
-  background-color: #F2F2F2;
-  border-radius: 15px 15px 15px 15px;
-  padding-left: 4%;
-  padding-right: 0%;
-  font-size: 0.9em;
-  flex-direction: column;
-  margin-right: 0%;
-  margin-left: 3%;
-  padding-top: 0px;
-}
+  .art1, .art
+  {
+    background-color: white;
+    margin-top: 0px;
+    border-radius: 15px ;
+    box-shadow: #F2F2F2 0px 0px 5px 3px;
+    
   
 
+  }
+
+  .imgart, .imgart2, .imgart3
+  {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100px;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  }
+
+  .nomactivite
+  {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-bottom: 8px;
+  }
 
 
 
 
-
-
-
-}
