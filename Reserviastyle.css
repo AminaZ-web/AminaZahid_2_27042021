@@ -85,6 +85,12 @@ nav li a {
   font-weight: bold;
   margin-left: 30px;
 }
+
+.sinscrire a
+{
+  color: #0065FC;
+}
+
 nav li {
   font-size: 0.8em;
   margin-right: 19px;
@@ -508,8 +514,8 @@ aside {
 .activites
 {
   display: flex;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0%;
+  margin-right: 5%;
   
 }
 
@@ -527,7 +533,7 @@ aside {
     margin-bottom: 40px;
     height: 220px ;
     width: 300px;
-    padding: 0px 0px  32px 0px;
+    padding: 0px 0px  50px 0px;
     
   }
 
@@ -548,7 +554,7 @@ aside {
   margin-top: 50px;
   border-radius: 15px ;
   box-shadow: #F2F2F2 5px 5px 5px 3px;
-  height: 300px;
+  height: 355px;
   width: 300px;
   padding: 0px 0px  190px 0px;
 
@@ -558,15 +564,15 @@ aside {
 .artfrioule {
   height: 120px;
   width: 300px;
-  padding: 0px 0px 32px 0px;
-  margin-top: 30px;
+  padding: 0px 0px 50px 0px;
+  margin-top: 95px;
 }
 
 .imgart
 {
  display: flex;
  width: 300px;
- height: 450px;
+ height: 500px;
  flex-direction: column;
  border-radius: 15px 15px 0px 0px;
 }
@@ -633,20 +639,36 @@ footer p
 {
 
 
-    .corps
+    #corps
     {
       max-width: 1440px;
+      width: 100%;
+      margin: 0%;
+      
+
     }
 
 
     /*En haut MQ mobile*/
 
 
+    .sinscrire
+    {
+      position: absolute;
+    }
+
+  .logo
+
+  {
+    width: 100%;
+    
+  }
 
     .logo, .sinscrire
 
     {
       display: flex;
+      flex-direction: row;
       width: auto;
       height: auto;
     }
@@ -668,12 +690,14 @@ footer p
       nav
       {
           width: auto;
+          position: absolute;
+          width: 100%;
         
       }
       
       .sinscrire
       {
-        margin-left: 2%;
+        margin-left: 0%;
       }
     
         nav ul
@@ -683,7 +707,7 @@ footer p
 
       nav li
       {
-          padding-left: 4px;
+          padding-left: 0px;
       }
     
       nav a
@@ -819,7 +843,7 @@ footer p
 
     .hebergement
     {
-      width: auto;
+      width: 100%;
       border: none;
       border-radius: 0%;
       background-color: white;
@@ -904,7 +928,7 @@ footer p
       background-color: white;
       border-radius: 15px 15px 15px 15px;
       margin-bottom: 10px;
-      margin-right: 10px;
+      margin-right: 40px;
       box-shadow: 0px 0px 5px 3px lightgrey;
     }
 
@@ -947,7 +971,7 @@ footer p
     aside 
     {
       display: flex;
-      width: auto;
+      width: 100%;
       border-radius: 0%;
       padding: 0%;
      
@@ -963,7 +987,7 @@ footer p
       flex-wrap: wrap;
       margin-top: 15px;
       margin-left: 0px;
-      width: 92%;
+      width: 100%;
     }
 
     .sous_gpe_2, .sous_gpe3
@@ -986,7 +1010,7 @@ footer p
       padding-left: 0px;
 
     }
-
+  
 
     .art1, .art
     {
@@ -994,6 +1018,8 @@ footer p
       margin-top: 0px;
       border-radius: 15px ;
       box-shadow: #F2F2F2 0px 0px 5px 3px;
+      padding: 0px;
+      height: 140px;
     }
 
     .imgart, .imgart2, .imgart3
@@ -1023,10 +1049,10 @@ footer p
     display: flex;
     flex-direction: column;
     width: 100%;
-      background-color: #f2f2f2;
-      padding-top: 25px;
-      padding-left: 40px;
-      margin-top: 20px;
+    background-color: #f2f2f2;
+    padding-top: 25px;
+    padding-left: 40px;
+    margin-top: 20px;
 
   }
 
