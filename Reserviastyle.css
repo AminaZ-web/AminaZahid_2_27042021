@@ -343,6 +343,7 @@ img.imgblanche {
   width: 250px;
   height: 150px;
   padding: 3px;
+  object-fit: cover;
 }
 
 .imageh
@@ -458,8 +459,7 @@ aside h1
   height: 100px;
   padding-left: 3px;
   padding-top: 3px;
-  
-  
+  object-fit: cover;
 
 }
 aside {
@@ -501,7 +501,7 @@ aside {
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 40px;
-  margin-left: -150px;
+  margin-left: -150px ;
   width: 92%;
 }
 
@@ -534,9 +534,20 @@ aside {
     height: 220px ;
     width: 300px;
     padding: 0px 0px  50px 0px;
-    
+    object-fit: cover;
   }
 
+  .art2
+  
+    {
+    margin-bottom: 145px;
+    height: 150px ;
+    width: 300px;
+    padding: 0px 0px  50px 0px;
+    object-fit: cover;
+    
+  }
+  
 
 .imgart3
   {
@@ -544,7 +555,18 @@ aside {
     width: 100%;
     height: 100%;
     border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+   
+    
+  }
 
+  .imgart4
+  {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
   }
 
 
@@ -566,6 +588,7 @@ aside {
   width: 300px;
   padding: 0px 0px 50px 0px;
   margin-top: 95px;
+  
 }
 
 .imgart
@@ -575,6 +598,7 @@ aside {
  height: 500px;
  flex-direction: column;
  border-radius: 15px 15px 0px 0px;
+ object-fit: cover;
 }
 
 .imgart2
@@ -584,6 +608,7 @@ aside {
   height: 100%;
   border-radius: 15px 15px 0px 0px;
   box-shadow: #F2F2F2 0px 0px 5px 3px;
+  object-fit: cover;
 }
 
 
@@ -608,7 +633,7 @@ footer
     padding-top: 25px;
     padding-left: 40px;
     
-    margin-top: 20px;
+    
 }
 
 footer h1
@@ -939,8 +964,10 @@ footer p
     {
       
       font-size: 1em;
+      margin-left: 3%;
     }
 
+  
     .iconepop
     {
       display: flex;
@@ -957,8 +984,16 @@ footer p
 
     }
 
-
-
+    .imagep
+    {
+      margin-bottom: 10px;
+      height: 100% ;
+      width: 100%;
+      max-width: 330px;
+      padding: 0px 0px  0px 0px;
+      object-fit: cover;
+      margin-left: 3%;
+    }
     .imgblanchep
     {
       border-radius: 15px 0px 0px 15px;
@@ -974,6 +1009,8 @@ footer p
       width: 100%;
       border-radius: 0%;
       padding: 0%;
+      margin-left: 0%;
+      margin-right: 0%;
      
     }
 
@@ -1052,11 +1089,16 @@ footer p
     background-color: #f2f2f2;
     padding-top: 25px;
     padding-left: 40px;
-    margin-top: 20px;
+    margin-top: 0px;
 
   }
 
+  .propos, .nosheb, .assistance
+  {
+    width: 100%;
+  }
   
+
 
  
 
