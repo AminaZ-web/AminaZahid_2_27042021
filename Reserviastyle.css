@@ -13,6 +13,7 @@ body
 
 #corps 
 {
+  max-width: 1440px;
   width: 90%;
   margin-left: 3%;
   margin-right: 3%;
@@ -34,14 +35,16 @@ header
 
 .top-page
 {
-  width: auto;
+  max-width: 1440px;
+  width: 100%;
   display: flex;
   align-items: flex-end;
   list-style: none;
   justify-content: space-between;
 }
 .block-top {
-  width: auto;
+  max-width: 1440px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -57,6 +60,7 @@ header
 }
 
 /*NAVIGATION*/
+
 
 nav ul
 {
@@ -75,15 +79,13 @@ nav a
  
 }
 
-nav li a {
-  padding-top: 25px;
-  margin-top: -15px;
-}
+
 .sinscrire
 {
   color: #0065FC;
   font-weight: bold;
   margin-left: 30px;
+  font-size: 0.8em
 }
 
 .sinscrire a
@@ -107,6 +109,13 @@ nav a:hover
   color:#0065FC;
 }
 
+.mqnav1 {
+  display: flex;
+ margin-right: 30px;
+ 
+
+
+ }
 
 
 /*block top*/
@@ -221,10 +230,14 @@ li
   
   display: flex;
   font-family: 'Raleway', sans-serif;
-  
 
 }
 
+
+.mqfiltre
+{
+  display: flex;
+}
 span.iconefiltre {
   
   color: #0065FC;
@@ -273,7 +286,6 @@ span.iconeinfo
 {
   font-size: 0.7em;
   margin-left: 0.5%;
-  margin-bottom: auto;
 }
 
 /* Les étoiles */
@@ -288,19 +300,26 @@ span.iconeinfo
 .groupe1
 {
   display: flex;
-  margin-top: 15px;
+  margin-top: 0px;
   
 }
 
 .hebergement
 {
-  width: 70%;
+  width: 60%;
   border: #F2F2F2 solid 1px;
   border-radius: 15px 15px 15px 15px;
   background-color: #F2F2F2;
   display: flex;
   justify-content: flex-start;
- 
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+  margin-top: 3%;
+  
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
  
 }
 
@@ -313,17 +332,6 @@ span.iconeinfo
 }
 
 
-.conteneur
-{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-left: 3%;
-  margin-top: 3%;
-  margin-right: 3%;
-
-  
-}
 
 .lienh
 {
@@ -379,8 +387,6 @@ p a:visited
 
 }
 
-
-
 .prix
 {
   font-size: 10px;
@@ -419,6 +425,23 @@ article {
 
 /* Les plus populaires */
 
+aside {
+  display: flex;
+  width: 20%;
+  height: auto;
+  background-color: #F2F2F2;
+  border-radius: 15px 15px 15px 15px;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 0.9em;
+  flex-direction: column;
+  margin-right: 3%;
+  margin-left: 3%;
+  padding-top: 15px;
+  margin-top: 3%;
+  
+  
+}
 
 aside h1
 {
@@ -462,28 +485,18 @@ aside h1
   object-fit: cover;
 
 }
-aside {
-  display: flex;
-  width: 20%;
-  position: relative;
-  background-color: #F2F2F2;
-  border-radius: 15px 15px 15px 15px;
-  padding-left: 3%;
-  padding-right: 3%;
-  font-size: 0.9em;
-  flex-direction: column;
-  margin-right: 3%;
-  margin-left: 3%;
-  padding-top: 15px;
-  
-  
-}
 
 
-.etoilepopulaire
-{
-  margin-top: 30px;
-}
+
+
+  .etoilepopulaire 
+  {
+    margin-top: 17px;
+    margin-left: 5px;
+  }
+
+
+
 
 .etoilep
 {
@@ -516,6 +529,7 @@ aside {
   display: flex;
   margin-left: 0%;
   margin-right: 5%;
+  max-width: 1440px;
   
 }
 
@@ -540,7 +554,7 @@ aside {
   .art2
   
     {
-    margin-bottom: 145px;
+    margin-bottom: 75px;
     height: 150px ;
     width: 300px;
     padding: 0px 0px  50px 0px;
@@ -569,6 +583,24 @@ aside {
     object-fit: cover;
   }
 
+.imgartlast
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
+}
+
+.artlast {
+  background-color: white;
+  margin-top: 25px;
+  border-radius: 15px;
+  box-shadow: #F2F2F2 5px 5px 5px 3px;
+  height: 170px;
+  width: 300px;
+  padding: 0px 0px  44px 0px;
+}
 
 .art1
 {
@@ -576,7 +608,7 @@ aside {
   margin-top: 50px;
   border-radius: 15px ;
   box-shadow: #F2F2F2 5px 5px 5px 3px;
-  height: 355px;
+  height: 300px;
   width: 300px;
   padding: 0px 0px  190px 0px;
 
@@ -587,18 +619,17 @@ aside {
   height: 120px;
   width: 300px;
   padding: 0px 0px 50px 0px;
-  margin-top: 95px;
+  margin-top: 50px;
   
 }
 
-.imgart
-{
- display: flex;
- width: 300px;
- height: 500px;
- flex-direction: column;
- border-radius: 15px 15px 0px 0px;
- object-fit: cover;
+.imgart {
+  display: flex;
+  width: 300px;
+  height: 450px;
+  flex-direction: column;
+  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
 }
 
 .imgart2
@@ -627,11 +658,13 @@ aside {
 
 footer
 {
+    max-width: 1440px;
     display: flex;
     width: 100%;
     background-color:#F2F2F2;
     padding-top: 25px;
     padding-left: 40px;
+    margin-top: 3%;
     
     
 }
@@ -663,40 +696,48 @@ footer p
 @media  (max-width: 480px)
 {
 
-
+body
+{
+  margin-left: 0%;
+}
     #corps
     {
-      max-width: 1440px;
+      max-width: 480px;
       width: 100%;
-      margin: 0%;
+      margin-left: auto;
+      margin-right: auto;
+      
       
 
     }
 
 
-    /*En haut MQ mobile*/
+    /*Top page MQ mobile*/
+
+
+    .top-page
+    {
+      margin-left: 5%;
+    }
 
 
     .sinscrire
     {
-      position: absolute;
+
+      position: relative;
+     padding-left: 75%;
+     margin-bottom: 10%;
     }
 
-  .logo
-
-  {
-    width: 100%;
-    
+    .logo {
+      width: 100%;
+      position: relative;
+      margin-bottom: 15%;
   }
 
-    .logo, .sinscrire
+  
+    
 
-    {
-      display: flex;
-      flex-direction: row;
-      width: auto;
-      height: auto;
-    }
 
     /*block top MQ mobile*/
 
@@ -707,6 +748,18 @@ footer p
     }
 
 
+    .block-top
+
+    {
+      margin-top: 30px;
+      margin-left: 5%;
+    
+    }
+
+    .mqnav1
+    {
+      display: flex;
+    }
 
 
     /*Navigation MQ mobile*/
@@ -715,7 +768,6 @@ footer p
       nav
       {
           width: auto;
-          position: absolute;
           width: 100%;
         
       }
@@ -723,8 +775,16 @@ footer p
       .sinscrire
       {
         margin-left: 0%;
+        position: relative;
       }
     
+    .logo, .sinscrire
+    {
+      display: flex;
+      flex-direction: row;
+    }
+
+
         nav ul
       {
           flex-direction:column-reverse;
@@ -742,7 +802,10 @@ footer p
     
       nav a:hover
       {
-          border-bottom: 0;
+         
+          border-bottom:#0065FC solid 1px ;
+          padding-bottom: 5px;
+          border-top: none;
       }
 
     .groupe1
@@ -751,7 +814,19 @@ footer p
       flex-direction: column;
     }
 
+    .mqnav1
+    {
+      display: flex;
+      align-items: center;
+      border-bottom: #F2F2F2 3px solid;
+      padding-bottom: 5px;
+     
+    }
 
+    .linav1
+    {
+      padding : 10px 0px 0px 0px;
+    }
 
     /*Barre de recherche MQ mobile*/
 
@@ -818,9 +893,14 @@ footer p
     .mediafiltre1
     {
       display: flex;
-      margin-bottom: 5%;
+      margin-bottom: 3%;
     }
 
+    .mqfiltre
+    {
+      display: flex;
+    }
+   
     .filterbar
     {
       display: flex;
@@ -874,7 +954,8 @@ footer p
       background-color: white;
       display: flex;
       justify-content: flex-start;
-    
+      padding: 0%;
+      margin-left: 5%;
     
     }
 
@@ -964,7 +1045,7 @@ footer p
     {
       
       font-size: 1em;
-      margin-left: 3%;
+      margin-left: 5%;
     }
 
   
@@ -987,12 +1068,12 @@ footer p
     .imagep
     {
       margin-bottom: 10px;
-      height: 100% ;
+      height: 100%;
       width: 100%;
       max-width: 330px;
       padding: 0px 0px  0px 0px;
       object-fit: cover;
-      margin-left: 3%;
+      margin-left: 5%;
     }
     .imgblanchep
     {
@@ -1015,7 +1096,16 @@ footer p
     }
 
     /* Les activités MQ mobile */
+    
 
+    .activites {
+      display: flex;
+      flex-direction: column;
+      margin-left: 5%;
+  }
+   
+
+    
     .groupe2
     {
       display: flex;
@@ -1033,12 +1123,7 @@ footer p
       
     }
 
-    .activites
-    {
-      display: flex;
-      flex-direction: column;
-      
-    }
+    
 
     .activites h2
     {
@@ -1049,26 +1134,68 @@ footer p
     }
   
 
-    .art1, .art
+  
+
+  .art
     {
       background-color: white;
       margin-top: 0px;
       border-radius: 15px ;
       box-shadow: #F2F2F2 0px 0px 5px 3px;
-      padding: 0px;
+      padding: 0px 0px 50px 0px ;
       height: 140px;
+      margin-bottom: 5%;
+      width: 100%;
     }
 
+    .art1
+    {
+      padding: 0px 0px 44px 0px ;
+      height: 150px;
+      margin-top: 5%;
+      width: 100%;
+      margin-bottom: 5%;
+      margin-right: auto;
+    }
+
+    .art2
+    {
+    padding: 0px 0px 44px;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    width: 100%;
+
+    }
+
+    .artfrioule
+    {
+      padding: 0px 0px 75px 0px ;
+      margin-top: 0px;
+     
+      width: 100%;
+    }
     .imgart, .imgart2, .imgart3
     {
       display: flex;
       flex-direction: column;
       width: 100%;
-      height: 100px;
+      height: 160px;
       border-radius: 15px 15px 0px 0px;
     }
 
   
+ 
+
+  .artlast {
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: #F2F2F2 5px 5px 5px 3px;
+    height: 170px;
+    width: 100%;
+    padding: 0px 0px  44px 0px;
+}
 
   .nomactivite
   {
@@ -1097,10 +1224,7 @@ footer p
   {
     width: 100%;
   }
-  
 
-
- 
 
  }
 
@@ -1111,92 +1235,91 @@ footer p
 
 {
 
+  /* Filtre tablette */
+
+
+  .mediafiltre1 
+  {
+    margin-bottom: 8px;
+  }
+
+
+
+  .filtreliste
+  {
+    padding-left: 5px;
+    flex-wrap: wrap;
+  }
+
+
+  /* icones filtre tablette */
+
+  span.iconefiltre {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -40px;
+    margin-left: 10px;
+}
+
+  /* Hebergement tablette */
+
+.groupe1
+{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+  .hebergement
+
+  {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    border-radius: 0px ;
+    background: none;
+    border: none;
+    padding-left: 10px;
+  }
+  
+  .bloc_h
+
+  {
+    align-items: center;
+  }
+ 
+
+  img.imgblanche {
+    border-radius: 15px 15px 0px 0px;
+    width: 410px;
+    height: 150px;
+    padding: 3px;
+    object-fit: cover;
+}
+
     /* Les + populaires tablette */
 
   aside {
     display: flex;
-    width: 40%;
+    width: 100%;
     position: relative;
     background-color: #f2f2f2;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 0px;
     padding-left: 4%;
     padding-right: 0%;
     font-size: 0.9em;
-    flex-direction: column;
+    flex-direction: colmn;
     margin-right: 0%;
-    margin-left: 3%;
+    margin-left: 0%;
     padding-top: 0px;
   }
     
 
-  /* Les activités tablette */
-
-
-  .groupe2
-  {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 15px;
-    margin-left: 0px;
-    width: 80%;
-  }
-
-  .sous_gpe_2, .sous_gpe3, .sous_gpe_1
-  {
-    margin-top: 0px;
-    width: 80%;
-    
-  }
-
-  .activites
-  {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-  
-  }
-
-  .activites h2
-  {
-    color: black;
-    margin-top: 30px;
-    padding-left: 0px;
-
-  }
-
-
-  .art1, .art
-  {
-    background-color: white;
-    margin-top: 0px;
-    border-radius: 15px ;
-    box-shadow: #F2F2F2 0px 0px 5px 3px;
-    
   
 
   }
-
-  .imgart, .imgart2, .imgart3
-  {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    height: 100px;
-    border-radius: 15px 15px 0px 0px;
-  }
-
-  }
-
-  .nomactivite
-  {
-    font-size: 0.8em;
-    font-weight: bold;
-    margin-left: 15px;
-    padding-bottom: 8px;
-  }
-
-
-
-
