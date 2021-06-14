@@ -7,14 +7,14 @@ a
 body 
 {
   font-family: 'Raleway', sans-serif;
-  width: auto;
+  width: 100%;
 }
 
 
 #corps 
 {
-  max-width: 1440px;
-  width: 90%;
+  
+  width: 100%;
   margin-left: 3%;
   margin-right: 3%;
   color: black;
@@ -22,7 +22,7 @@ body
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 17px;
   font-weight: bold;
 }
 
@@ -35,15 +35,16 @@ header
 
 .top-page
 {
-  max-width: 1440px;
+  
   width: 100%;
   display: flex;
   align-items: flex-end;
   list-style: none;
   justify-content: space-between;
 }
+
 .block-top {
-  max-width: 1440px;
+  
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -66,7 +67,8 @@ nav ul
 {
   display: flex;
   list-style: none;
-  margin-right: 60px;
+  width: 100%;
+  margin-right: 110px;
   padding-right: 30px;
 }
 
@@ -75,7 +77,6 @@ nav a
  text-decoration: none;
  display: flex;
  color: black;
-;
  
 }
 
@@ -85,7 +86,7 @@ nav a
   color: #0065FC;
   font-weight: bold;
   margin-left: 30px;
-  font-size: 0.8em
+  font-size: 14px ;
 }
 
 .sinscrire a
@@ -93,43 +94,40 @@ nav a
   color: #0065FC;
 }
 
-nav li {
-  font-size: 0.8em;
+nav li 
+{
+  font-size: 14px;
   margin-right: 19px;
-  margin-left: px;
   padding-left: 10%;
-
 }
 
 
 nav a:hover
 {
- 
   border-top: #0065FC 1px solid;
   color:#0065FC;
 }
 
-.mqnav1 {
-  display: flex;
+.mqnav1 
+{
+ display: flex;
  margin-right: 30px;
- 
+}
 
 
- }
 
-
-/*block top*/
+ /*block top*/
 
 .accroche
 {
-  font-size: 0.8em;
+  font-size: 14px;
   margin-top: 0.2%;
 }
 
 .titretop
 
 {
-  margin-top: 3%;
+  margin-top: 2%;
   margin-bottom: 0.2%;
 }
 
@@ -213,24 +211,19 @@ li
 {
   display: flex;
   margin-top: 1%;
-  align-items: baseline;
-  
+  align-items: baseline; 
 }
 
 .filtre
 {
-  
   font-weight: bold;
   display: flex;
-  
 }
 
 .filtreliste
 {
-  
   display: flex;
   font-family: 'Raleway', sans-serif;
-
 }
 
 
@@ -258,6 +251,7 @@ span.iconefiltre {
 {
   display: flex;
 }
+
 /* info */
 
 span.iconeinfo
@@ -284,7 +278,7 @@ span.iconeinfo
 
 .infoville
 {
-  font-size: 0.7em;
+  font-size: 12px;
   margin-left: 0.5%;
 }
 
@@ -306,6 +300,7 @@ span.iconeinfo
 
 .hebergement
 {
+  
   width: 60%;
   border: #F2F2F2 solid 1px;
   border-radius: 15px 15px 15px 15px;
@@ -314,41 +309,43 @@ span.iconeinfo
   justify-content: flex-start;
   flex-wrap: wrap;
   flex-direction: column;
-  
-  margin-top: 3%;
-  
+  margin-top: 15px; 
   padding-left: 40px;
-  padding-right: 40px;
+  padding-right: 15px;
   padding-top: 40px;
- 
+  padding-bottom: 30px;
 }
 
 .hebergement h1
 {
   display: flex;
-  font-size: 1em;
+  font-size: 17px;
   margin-bottom: 3%;
   
 }
 
 
 
-.lienh
+ .lienh
 {
   max-width: 300px;
 }
 
+
 .bloc_h
 {
- display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+   
+    
 }
+
 
 img.imgblanche {
   border-radius: 15px 15px 0px 0px;
-  width: 250px;
+  width: 100%;
   height: 150px;
   padding: 3px;
   object-fit: cover;
@@ -357,6 +354,10 @@ img.imgblanche {
 .imageh
 {
  max-width: 100%;
+ margin-bottom: 30px;
+ margin-right: 30px;
+ padding-bottom: 10px;
+ padding-top: 2px;
 }
 
 
@@ -367,7 +368,7 @@ p a:visited
 
 .afficher
 {
-  font-size: 0.8em;
+  font-size: 14px;
   margin-top: 3%;
   font-weight: bold;
 
@@ -382,7 +383,7 @@ p a:visited
   font-size: 12px;
   font-weight: bold;
   margin-bottom: -6px;
-  margin-top: 2px;
+  
   
 
 }
@@ -420,6 +421,8 @@ article {
   border-radius: 15px 15px 15px 15px;
   margin-bottom: 10px;
   margin-right: 10px;
+  padding-right: 8px;
+  padding-left: 2px;
   box-shadow: 0px 0px 5px 3px lightgrey;
 }
 
@@ -428,17 +431,15 @@ article {
 aside {
   display: flex;
   width: 20%;
-  height: auto;
   background-color: #F2F2F2;
   border-radius: 15px 15px 15px 15px;
   padding-left: 3%;
   padding-right: 3%;
-  font-size: 0.9em;
   flex-direction: column;
   margin-right: 3%;
   margin-left: 3%;
   padding-top: 15px;
-  margin-top: 3%;
+  margin-top: 1%;
   
   
 }
@@ -446,7 +447,7 @@ aside {
 aside h1
 {
   
-  font-size: 1em;
+  font-size: 17px;
 }
 
 .iconepop
@@ -467,42 +468,31 @@ aside h1
 }
 
 
-.imagep
-{
+.imagep {
   display: flex;
   margin-top: 10px;
-  margin-bottom: 50px;
-  
+  margin-bottom: 25px;
+  align-content: space-between;
 }
 
-.imgblanchep
-{
+.imgblanchep {
   border-radius: 15px 0px 0px 15px;
-  width: 100px;
-  height: 100px;
-  padding-left: 3px;
-  padding-top: 3px;
+  width: 123px;
+  height: 151px;
+  padding-left: 1px;
+  padding-top: 4px;
   object-fit: cover;
-
 }
 
+.etoilepopulaire {
+  margin-top: 60px;
+  margin-left: 5px;
+}
 
-
-
-  .etoilepopulaire 
-  {
-    margin-top: 17px;
-    margin-left: 5px;
-  }
-
-
-
-
-.etoilep
-{
-  margin-top: 9px;
+.etoilep {
+  margin-top: 0px;
   margin-left: 10px;
-  
+  padding: 15px 0px 0px 0px;
 }
 
 
@@ -510,30 +500,43 @@ aside h1
 
 .groupe2
 {
-  display: flex;
-  justify-content: space-between;
+ 
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 50% ;
+  gap: 10%; 
+  width: 100%;
+
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: -4%;
+ 
+  
+  
+  
+  
+  /* display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
-  margin-left: -150px ;
-  width: 92%;
+  margin-left: -175px ;
+  width: 100%; */
+ 
 }
 
 .sous_gpe_2, .sous_gpe3
 {
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-right: 50px;
   
 }
 
 .activites
 {
-  display: flex;
-  margin-left: 0%;
-  margin-right: 5%;
-  max-width: 1440px;
   
+  width: 100%;
 }
 
-.activites h2
+.titreactivites
 {
   color: black;
   margin-top: 45px;
@@ -546,17 +549,18 @@ aside h1
   {
     margin-bottom: 40px;
     height: 220px ;
-    width: 300px;
+    width: 330px;
     padding: 0px 0px  50px 0px;
     object-fit: cover;
+   
   }
 
   .art2
   
     {
-    margin-bottom: 75px;
-    height: 150px ;
-    width: 300px;
+    margin-bottom: 37px;
+    height: 190px;
+    width: 330px;
     padding: 0px 0px  50px 0px;
     object-fit: cover;
     
@@ -598,26 +602,25 @@ aside h1
   border-radius: 15px;
   box-shadow: #F2F2F2 5px 5px 5px 3px;
   height: 170px;
-  width: 300px;
+  width: 330px;
   padding: 0px 0px  44px 0px;
 }
 
 .art1
 {
   background-color: white;
-  margin-top: 50px;
+  margin-top: 100px;
   border-radius: 15px ;
   box-shadow: #F2F2F2 5px 5px 5px 3px;
   height: 300px;
-  width: 300px;
+  width: 330px;
   padding: 0px 0px  190px 0px;
-
- 
+  margin-right: 50px;
 }
 
 .artfrioule {
   height: 120px;
-  width: 300px;
+  width: 331px;
   padding: 0px 0px 50px 0px;
   margin-top: 50px;
   
@@ -625,7 +628,7 @@ aside h1
 
 .imgart {
   display: flex;
-  width: 300px;
+  width: 100%;
   height: 450px;
   flex-direction: column;
   border-radius: 15px 15px 0px 0px;
@@ -657,8 +660,8 @@ aside h1
 /* Footer desktop */
 
 footer
-{
-    max-width: 1440px;
+{ 
+ 
     display: flex;
     width: 100%;
     background-color:#F2F2F2;
@@ -702,13 +705,10 @@ body
 }
     #corps
     {
-      max-width: 480px;
+      
       width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      
-      
-
+      margin-right: 0%;
+      margin-left: 0%;
     }
 
 
@@ -732,9 +732,19 @@ body
     .logo {
       width: 100%;
       position: relative;
-      margin-bottom: 15%;
+      margin-bottom: 21%;
   }
 
+  
+
+  .linav1
+  {
+   margin-right: 84px;
+  }
+  .linav2 {
+    margin-top: 10px;
+    
+}
   
     
 
@@ -756,10 +766,9 @@ body
     
     }
 
-    .mqnav1
-    {
-      display: flex;
-    }
+
+
+  
 
 
     /*Navigation MQ mobile*/
@@ -767,8 +776,11 @@ body
 
       nav
       {
-          width: auto;
           width: 100%;
+          height: 100%;
+          align-items: center;
+          display: flex;
+          justify-content: center;
         
       }
       
@@ -792,11 +804,12 @@ body
 
       nav li
       {
-          padding-left: 0px;
+          padding-left: 71px;
       }
     
       nav a
       {
+        display: flex;
           font-size: 1.1em;
       }
     
@@ -816,16 +829,14 @@ body
 
     .mqnav1
     {
-      display: flex;
       align-items: center;
       border-bottom: #F2F2F2 3px solid;
       padding-bottom: 5px;
-     
     }
 
     .linav1
     {
-      padding : 10px 0px 0px 0px;
+      padding : 10px 53px 0px 0px;
     }
 
     /*Barre de recherche MQ mobile*/
@@ -843,7 +854,7 @@ body
       
         border: 1px solid #F2F2F2;
         border-right: none;
-        padding-left: 3%;
+        padding-left: 35%;
         height: 40px;
       
         outline: none;
@@ -1078,10 +1089,11 @@ body
     .imgblanchep
     {
       border-radius: 15px 0px 0px 15px;
-      width: 90px;
-      height: 90px;
+      width: 115px;
+    height: 132px;
       padding-left: 3px;
       padding-top: 3px;
+
 
     }
     aside 
@@ -1145,7 +1157,7 @@ body
       padding: 0px 0px 50px 0px ;
       height: 140px;
       margin-bottom: 5%;
-      width: 100%;
+      width: 117%;
     }
 
     .art1
@@ -1163,7 +1175,7 @@ body
     padding: 0px 0px 44px;
     margin-top: 0%;
     margin-bottom: 5%;
-    width: 100%;
+    width: 117%;
 
     }
 
@@ -1171,8 +1183,7 @@ body
     {
       padding: 0px 0px 75px 0px ;
       margin-top: 0px;
-     
-      width: 100%;
+      width: 117%;
     }
     .imgart, .imgart2, .imgart3
     {
@@ -1193,7 +1204,7 @@ body
     border-radius: 15px;
     box-shadow: #F2F2F2 5px 5px 5px 3px;
     height: 170px;
-    width: 100%;
+    width: 117%;
     padding: 0px 0px  44px 0px;
 }
 
@@ -1235,6 +1246,28 @@ body
 
 {
 
+  /* Barre de Navigation */
+
+  nav ul
+    {
+      margin-right: 0px;
+    }
+  .titretop, .accroche, .BR 
+    {
+      
+      margin-bottom: 2.2%;
+      margin-top: 2.2%;
+    }
+
+
+
+.filtreliste 
+  {
+    padding-left: 5px;
+    flex-wrap:initial;
+    
+  }
+
   /* Filtre tablette */
 
 
@@ -1269,6 +1302,17 @@ body
 
   /* Hebergement tablette */
 
+  .imagep {
+    
+    width: 50%;
+    
+}
+
+.tab_populaire
+{
+  display: flex;
+  flex-direction: row;
+}
 .groupe1
 {
   display: flex;
@@ -1290,7 +1334,10 @@ body
   .bloc_h
 
   {
-    align-items: center;
+  
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+
   }
  
 
@@ -1305,21 +1352,26 @@ body
     /* Les + populaires tablette */
 
   aside {
-    display: flex;
+    
     width: 100%;
-    position: relative;
-    background-color: #f2f2f2;
     border-radius: 0px;
     padding-left: 4%;
     padding-right: 0%;
     font-size: 0.9em;
-    flex-direction: colmn;
+    flex-direction: column;
     margin-right: 0%;
     margin-left: 0%;
     padding-top: 0px;
   }
     
 
+  /* Activité Marseille Tablette */
+
+.groupe2
+{
+  display: flex;
+  flex-wrap: wrap;
+}
   
 
   }
