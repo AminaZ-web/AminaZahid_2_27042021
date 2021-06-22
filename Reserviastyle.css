@@ -25,7 +25,7 @@ body
 }
 
 h2 {
-  font-size: 17px;
+  font-size: 1px;
   font-weight: bold;
 }
 
@@ -118,6 +118,12 @@ nav a:hover
 {
   font-size: 14px;
   margin-top: 0.2%;
+
+}
+
+h2
+{
+  font-size: 17px;
 }
 
 .titretop
@@ -421,13 +427,12 @@ article {
 
 aside {
   display: flex;
-  width: 20%;
+  width: 30%;
   background-color: #F2F2F2;
   border-radius: 15px 15px 15px 15px;
   padding-left: 3%;
   padding-right: 3%;
   flex-direction: column;
-  margin-right: 3%;
   margin-left: 3%;
   padding-top: 15px;
   margin-top: 1%;
@@ -488,6 +493,7 @@ aside h1
 
 
 /* Les activités */
+
 
 .groupe2
 {
@@ -673,53 +679,55 @@ footer p
 }
 
 /* Media queries mobile */
-
-@media  (max-width: 480px)
+    @media  (max-width: 480px)
 {
 
 body
 {
-  margin-left: 0%;
+  margin: 0%;
 }
-    #corps
+
+#corps
     {
       
       margin-right: 0%;
       margin-left: 0%;
     }
 
+/*Top page MQ mobile*/
 
-    /*Top page MQ mobile*/
 
+.top-page
+{
+  margin-left: 0%;
+  display:unset;
+}
 
-    .top-page
+.sinscrire
     {
-      margin-left: 5%;
-    }
 
-
-    .sinscrire
-    {
-
-      position: relative;
-     padding-left: 75%;
+    position: relative;
+     padding-left: 0%;
      margin-bottom: 10%;
     }
 
     .logo {
-      width: 100%;
+      width: 26%;
       position: relative;
-      margin-bottom: 21%;
+      margin-bottom: 0%;
   }
 
   
 
   .linav1
   {
-   margin-right: 84px;
+   width: 50%;
+   align-items: center;
   }
   .linav2 {
-    margin-top: 10px;
+    width: 50%;
+    align-items: center;
+    margin-right: 0%;
     
 }
   
@@ -735,7 +743,7 @@ body
 
     {
       margin-top: 30px;
-      margin-left: 5%;
+      margin-left: 0%;
     
     }
 
@@ -746,24 +754,21 @@ body
       {
           width: 100%;
           height: 100%;
-          align-items: center;
-          display: flex;
-          justify-content: center;
-        
+          display: unset;
       }
       
-      .sinscrire
-      {
-        margin-left: 0%;
-        padding-left: 70%;
-        position: relative;
-      }
-    
-    .logo, .sinscrire
-    {
-      display: flex;
-      flex-direction: row;
+      .sinscrire {
+        display: unset;
+        margin-left: 77%;
+        padding-bottom: 3%;
+        padding-left: 0%;
+        margin-right: 0%;
+        position: absolute;
     }
+    
+      .sinscrire a {
+        display: unset;
+       }
 
 
         nav ul
@@ -771,8 +776,9 @@ body
        
         flex-direction: column-reverse;
         margin-left: 0px;
+        margin-right: 0%;
         padding-left: 0px;
-        padding-right: 70px;
+        padding-right: 0px;
         
       }
 
@@ -783,7 +789,7 @@ body
     
       nav a
       {
-        display: flex;
+        display: unset;
           font-size: 1.1em;
       }
     
@@ -795,737 +801,400 @@ body
           border-top: none;
       }
 
-    .groupe1
-    {
-      display: flex;
-      flex-direction: column;
-    }
+    
+
 
     .mqnav1
     {
       align-items: center;
       border-bottom: #F2F2F2 3px solid;
-      padding-bottom: 5px;
+      padding-bottom: 0px;
     }
 
     .linav1 {
-      padding: 10px 0px 0px 0px;
-      margin-right: 163px;
-  }
-
-    /*Barre de recherche MQ mobile*/
-
-    .BR
-    {
-      
-      margin-top: 5%;
-    }
-
-    .search 
-    {
-        font-family: 'Raleway', sans-serif;
-        font-weight: bold;
-      
-        border: 1px solid #F2F2F2;
-        border-right: none;
-        padding-left: 35%;
-        height: 40px;
-      
-        outline: none;
-        color: black;
-    }
-
-  
-    .bouton 
-    {
-      
-        display: none;
-    }
-
-    .loupe
-    {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 10px;
-      color: white;
-      background: #0065FC;
-      border-radius: 11px;
-      border: none;
-      padding: 15px 15px 15px 15px;
-    }
-
-    span.iconegps {
-      display: flex;
-      padding: 10px 13px 15px 17px;
-      background: #F2F2F2;
-      font-size: 1.1em;
-      border-top-left-radius: 15px;
-      border-bottom-left-radius: 15px;
-      height: 15px;
-    }
-
-
-
-
-    /*Filtre MQ mobile*/
-
-    li
-    {
-      list-style: none;
-    }
-
-    .mediafiltre1
-    {
-      display: flex;
-      margin-bottom: 3%;
-    }
-
-    .mqfiltre
-    {
-      display: flex;
-    }
-   
-    .filterbar
-    {
-      display: flex;
-      flex-direction: column;
-      margin-top: 8%;
-    }
-
-    .filtre
-    {
-      
-      font-weight: bold;
-      display: flex;
-      
-    }
-
-    .filtreliste
-    {
-      
-      display: flex;
-      flex-direction: column;
-      font-family: 'Raleway', sans-serif;
-      padding-left: 0%;
-    
-    }
-
-
-    /* Les sections MQ mobile */
-
-    .groupe1
-    {
-      display: flex;
-      flex-direction: column-reverse;
-    }
-
-
-
-    /* Hebergement  MQ Mobile*/
-
-    .groupe1
-    {
-      display: flex;
-      margin-top: 15px;
-      
-    }
-
-    .hebergement
-    {
-      width: 100%;
-      border: none;
-      border-radius: 0%;
-      background-color: white;
-      display: flex;
-      justify-content: flex-start;
-      padding: 0%;
-      margin-left: 5%;
-    
-    }
-
-    .hebergement h1
-    {
-      display: flex;
-      font-size: 1em;
-      margin-bottom: 5%;
-      
-    }
-
-
-    .conteneur
-    {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      margin-left: 5%;
-      margin-top: 2%;
-      
-    }
-
-    .bloc_h
-    {
-      display: flex;
-      flex-wrap: wrap;
-    
-    }
-
-    img.imgblanche
-    {
-      
-      border-radius:  15px 15px 0px 0px;
-      width: 100%;
-      height: 100px;
-      padding: 0%;
-      
-    }
-
-    .imageh {
-      margin-right: 0;
-      padding: 5px;
-      width: 90%;
-  }
-
-
-    p a:visited
-    {
-      color: black;
-    }
-
-    .afficher
-    {
-      font-size: 0.8em;
-      margin-top: 3%;
-      font-weight: bold;
-
-    }
-
-    /* hebergement et les + populaire MQ Mobile*/
-
-    .titrehotel
-    {
-      display: flex;
-      flex-wrap: wrap;
-      font-size: 12px;
-      font-weight: bold;
-      
-      margin-top: 2px;
-      
-
-    }
-
-
-    article {
-      background-color: white;
-      border-radius: 15px 15px 15px 15px;
-      margin-bottom: 10px;
-      margin-right: 40px;
-      box-shadow: 0px 0px 5px 3px lightgrey;
-    }
-
-    /* Les plus populaires MQ mobile*/
-
-
-    aside h1
-    {
-      
-      font-size: 1em;
-      margin-left: 5%;
-    }
-
-  
-    .iconepop
-    {
-      display: flex;
-      flex-direction:row;
-      justify-content: space-between;
-      
-    }
-
-    .popicone
-    {
-      text-align: center;
-      padding-top: 15px;
-      padding-right: 10px;
-
-    }
-
-    .imagep
-    {
-      margin-bottom: 10px;
-      height: 100%;
-      width: 100%;
-      max-width: 330px;
-      padding: 0px 0px  0px 0px;
-      object-fit: cover;
-      margin-left: 5%;
-    }
-    .imgblanchep
-    {
-      border-radius: 15px 0px 0px 15px;
-      width: 115px;
-    height: 132px;
-      padding-left: 3px;
-      padding-top: 3px;
-
-
-    }
-    aside 
-    {
-      display: flex;
-      width: 100%;
-      border-radius: 0%;
-      padding: 0%;
-      margin-left: 0%;
-      margin-right: 0%;
-     
-    }
-
-    /* Les activités MQ mobile */
-    
-
-    .activites {
-      display: flex;
-      flex-direction: column;
-      margin-left: 5%;
-      margin-bottom: 30px;
-  }
-   
-
-    
-    .groupe2
-    {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      margin-top: 15px;
-      margin-left: 0px;
-     
-    }
-
-    .sous_gpe_2, .sous_gpe3
-    {
-      margin-top: 0px;
-      
-    }
-
-    
-
-    .activites h2
-    {
-      color: black;
-      margin-top: 30px;
-      padding-left: 0px;
-
-    }
-  
-  .art
-    {
-      background-color: white;
-      margin-top: 0px;
-      border-radius: 15px ;
-      box-shadow: #F2F2F2 0px 0px 5px 3px;
-      padding: 0px 0px 50px 0px ;
-      height: 140px;
-      margin-bottom: 5%;
-      width: 107%;
-    }
-
-    .art1
-    {
-      padding: 0px 0px 44px 0px ;
-      height: 150px;
-      margin-top: 5%;
-      width: 92%;
-      margin-bottom: 5%;
-      margin-right: auto;
-    }
-
-    .art2
-    {
-    padding: 0px 0px 44px;
-    margin-top: 0%;
-    margin-bottom: 5%;
-    width: 107%;
-
-    }
-
-    .artfrioule
-    {
-      padding: 0px 0px 75px 0px ;
-      margin-top: 0px;
-      width: 107%;
-    }
-    .imgart, .imgart2, .imgart3
-    {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 160px;
-      border-radius: 15px 15px 0px 0px;
-    }
-
-  .artlast {
-    width: 107%;
-}
-
-  .nomactivite
-  {
-    font-size: 0.8em;
-    font-weight: bold;
-    margin-left: 15px;
-    padding-bottom: 8px;
-  }
-
-
-  /* Footer media queries mobile */
-
-  footer
-  {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: #f2f2f2;
-    padding-top: 25px;
-    padding-left: 40px;
-    margin-top: 0px;
-
-  }
-
-  .propos, .nosheb, .assistance
-  {
-    width: 100%;
-  }
-
-
- }
-
-
-/* Media queries Tablette Horizontal */
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape) 
-
-{
-
-  /* Barre de Navigation */
-
-  nav ul
-    {
+      padding: 0px 0px 0px 0px;
       margin-right: 0px;
-    }
-  .titretop, .accroche, .BR 
-    {
-      
-      margin-bottom: 2.2%;
-      margin-top: 2.2%;
-    }
+  }
 
 
+  .titretop {
+    font-size: 17px;
+}
+  /*Barre de recherche MQ mobile*/
 
-.filtreliste 
+
+  .BR
   {
-    padding-left: 5px;
-    flex-wrap:initial;
     
+    margin-top: 5%;
   }
 
-  /* Filtre tablette */
-
-
-  .mediafiltre1 
+  .search 
   {
-    margin-bottom: 8px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+    
+      border: 1px solid #F2F2F2;
+      border-right: none;
+      padding-left: 35%;
+      height: 40px;
+    
+      outline: none;
+      color: black;
   }
 
 
-
-  .filtreliste
+  .bouton 
   {
-    padding-left: 5px;
-    flex-wrap: wrap;
+    
+      display: none;
   }
 
-
-  /* icones filtre tablette */
-
-  span.iconefiltre {
-    color: #0065FC;
-    background-color: #DEEBFF;
-    border-radius: 100%;
-    height: 50px;
-    width: 50px;
+  .loupe
+  {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: -40px;
-    margin-left: 10px;
-}
+    font-size: 10px;
+    color: white;
+    background: #0065FC;
+    border-radius: 11px;
+    border: none;
+    padding: 15px 15px 15px 15px;
+  }
 
-  /* Hebergement tablette */
+  span.iconegps {
+    display: flex;
+    padding: 10px 13px 15px 17px;
+    background: #F2F2F2;
+    font-size: 1.1em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 15px;
+  }
+   /*Filtre MQ mobile*/
 
-  .imagep {
-    
-    width: 50%;
-    
-}
+   li
+   {
+     list-style: none;
+   }
 
-.tab_populaire
-{
-  display: flex;
-  flex-direction: row;
-}
+   .mediafiltre1
+   {
+     display: flex;
+     margin-bottom: 3%;
+   }
+
+   .mqfiltre
+   {
+     display: flex;
+   }
+  
+   .filterbar
+   {
+     display: flex;
+     flex-direction: column;
+     margin-top: 8%;
+   }
+
+   .filtre
+   {
+     
+     font-weight: bold;
+     display: flex;
+     
+   }
+
+   .filtreliste
+   {
+     
+     display: flex;
+     flex-direction: column;
+     font-family: 'Raleway', sans-serif;
+     padding-left: 0%;
+   
+   }
+
+/* Les sections MQ mobile */
+
 .groupe1
 {
   display: flex;
   flex-direction: column-reverse;
-  width: 100%;
 }
-  .hebergement
+/* Hebergement  MQ Mobile*/
 
-  {
-    width: 100%;
-    height: auto;
-    margin: 0%;
-    border-radius: 0px ;
-    background: none;
-    border: none;
-    padding-left: 10px;
-  }
-  
-  .bloc_h
-
-  {
-  
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-
-  }
- 
-
-  img.imgblanche {
-    border-radius: 15px 15px 0px 0px;
-    width: 429px;
-    height: 150px;
-    padding: 3px;
-    object-fit: cover;
-}
-
-    /* Les + populaires tablette */
-
-  aside {
-    
-    width: 100%;
-    border-radius: 0px;
-    padding-left: 4%;
-    padding-right: 0%;
-    font-size: 0.9em;
-    flex-direction: column;
-    margin-right: 0%;
-    margin-left: 0%;
-    padding-top: 0px;
-  }
-    
-  .etoilepopulaire {
-    margin-top: 20px;
-    margin-left: 5px;
-}
-
-  /* Activité Marseille Tablette */
-
-.groupe2
-{
-  display: flex;
-  flex-wrap: wrap;
-}
-  
-
-  }
-
-  /* MQ Tablette vertical */
-
-  @media only screen
-  and (min-device-width : 768px)
-  and (max-device-width : 1024px)
-  and (orientation:portrait) 
-{
-    /* Barre de Navigation */
-
-  nav ul
-  {
-    margin-right: 0px;
-  }
-.titretop, .accroche, .BR 
-  {
-    
-    margin-bottom: 2.2%;
-    margin-top: 2.2%;
-  }
-
-
-
-.filtreliste 
-{
-  padding-left: 5px;
-  flex-wrap:initial;
-  
-}
-
-/* Filtre tablette */
-
-
-.mediafiltre1 
-{
-  margin-bottom: 8px;
-}
-
-
-
-.filtreliste
-{
-  padding-left: 5px;
-  flex-wrap: wrap;
-}
-
-
-/* icones filtre tablette */
-
-span.iconefiltre {
-  color: #0065FC;
-  background-color: #DEEBFF;
-  border-radius: 100%;
-  height: 50px;
-  width: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: -40px;
-  margin-left: 10px;
-}
-
-/* Hebergement tablette */
-
-.titreactivites {
-  margin-bottom: 5%;
-}
-.imagep {
-  
-  width: 50%;
-  
-}
-
-.tab_populaire
-{
-display: flex;
-flex-direction: row;
-}
 .groupe1
 {
-display: flex;
-flex-direction: column-reverse;
-width: 100%;
+  display: flex;
+  margin-top: 15px;
+  
 }
-.hebergement
 
+.hebergement
 {
   width: 100%;
-  height: auto;
-  margin: 0%;
-  border-radius: 0px ;
-  background: none;
   border: none;
-  padding-left: 10px;
+  border-radius: 0%;
+  background-color: white;
+  display: unset;
+  justify-content: center;
+  padding: 0%;
+  margin-left: 6%;
+
+}
+
+.hebergement h1
+{
+    display: unset;
+  font-size: 1em;
+  margin-bottom: 5%;
+  
+}
+
+
+.conteneur
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 2%;
+  
 }
 
 .bloc_h
-
 {
-
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-
-}
-
-
-img.imgblanche {
-  border-radius: 15px 15px 0px 0px;
-  width: 325px;
-  height: 150px;
-  padding: 3px;
-  object-fit: cover;
-}
-
-  /* Les + populaires tablette */
-
-aside {
-  
-  width: 100%;
-  border-radius: 0px;
-  padding-left: 4%;
-  padding-right: 0%;
-  font-size: 0.9em;
-  flex-direction: column;
-  margin-right: 0%;
-  margin-left: 0%;
-  padding-top: 0px;
-}
-  
-.etoilepopulaire {
-  margin-top: 20px;
-  margin-left: 5px;
-}
-
-/* Activité Marseille Tablette */
-
-.imgart {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+
+}
+
+img.imgblanche
+{
+  
+  border-radius:  15px 15px 0px 0px;
   width: 100%;
-  height: 293px;
-  flex-direction: column;
-  border-radius: 15px 15px 0px 0px;
-  object-fit: cover;
+  height: 100px;
+  padding: 0%;
+  
+}
+
+.imageh {
+  margin-right: 0;
+  padding: 5px;
+  width: 90%;
+}
+
+
+p a:visited
+{
+  color: black;
+}
+
+.afficher
+{
+  font-size: 0.8em;
+  margin-top: 3%;
+  font-weight: bold;
+
+}
+
+/* hebergement et les + populaire MQ Mobile*/
+
+.titrehotel
+{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  font-weight: bold;
+  
+  margin-top: 2px;
+  
+
+}
+
+
+article {
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  box-shadow: 0px 0px 5px 3px lightgrey;
+}
+
+  /* Les plus populaires MQ mobile*/
+
+
+  aside h1
+  {
+    
+    font-size: 1em;
+    margin-left: 5%;
+  }
+
+
+  .iconepop
+  {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+  }
+
+  .popicone
+  {
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 10px;
+
+  }
+
+  .imagep
+  {
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    max-width: 330px;
+    padding: 0px 0px  0px 0px;
+    object-fit: cover;
+    margin-left: 5%;
+  }
+  .imgblanchep
+  {
+    border-radius: 15px 0px 0px 15px;
+    width: 115px;
+  height: 132px;
+    padding-left: 3px;
+    padding-top: 3px;
+
+
+  }
+  aside 
+  {
+    display: unset;
+    width: 100%;
+    border-radius: 0%;
+    padding: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+   
+  }
+
+/* Les activités MQ mobile */
+    
+
+.activites {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-bottom: 30px;
 }
 .groupe2
 {
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-left: 0px;
+ 
 }
 
-.art1 {
-  background-color: white;
-  margin-top: 100px;
-  border-radius: 15px;
-  box-shadow: #F2F2F2 5px 5px 5px 3px;
-  height: 146px;
-  width: 237px;
-  padding: 0px 0px  190px 0px;
+.sous_gpe_2, .sous_gpe3
+{
+  margin-top: 0px;
   
 }
 
-.art, .art1, .art2, .artfrioule, .artlast
-{
-  margin-right: 0%;
-  margin-bottom: 10%;
-  margin-top: 0%;
 
+
+.activites h2
+{
+  color: black;
+  margin-top: 30px;
+  padding-left: 0px;
+  font-size: 17px;
+
+}
+
+.art
+{
+  background-color: white;
+  margin-top: 0px;
+  border-radius: 15px ;
+  box-shadow: #F2F2F2 0px 0px 5px 3px;
+  padding: 0px 0px 50px 0px ;
+  height: 140px;
+  margin-bottom: 5%;
+  width: 107%;
 }
 
 .art1
 {
-  height: 270px;
-  margin-top: 15%;
+  padding: 0px 0px 44px 0px ;
+  height: 150px;
+  margin-top: 5%;
+  width: 92%;
+  margin-bottom: 5%;
+  margin-right: auto;
 }
-.imgart
+
+.art2
 {
-  height: 430px;
-}
-
-.titreactivites {
-  margin-bottom: 0%;
-}
-
+padding: 0px 0px 10px;
+margin-top: 0%;
+margin-bottom: 5%;
+width: 107%;
 
 }
 
+.artfrioule
+{
+  padding: 0px 0px 75px 0px ;
+  margin-top: 0px;
+  width: 107%;
+}
+.imgart, .imgart2, .imgart3
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 160px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.artlast {
+width: 107%;
+}
+
+.nomactivite
+{
+font-size: 0.8em;
+font-weight: bold;
+margin-left: 15px;
+padding-bottom: 8px;
+}
+
+/* Footer media queries mobile */
+
+footer
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding-top: 25px;
+  padding-left: 40px;
+  margin-top: 0px;
+
+}
+
+.propos, .nosheb, .assistance
+{
+  width: 100%;
+}
+
+
+}

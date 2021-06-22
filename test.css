@@ -1,0 +1,1195 @@
+/*BODY*/
+
+a
+{
+  text-decoration: none;
+}
+
+
+body 
+{
+  font-family: 'Raleway', sans-serif;
+ 
+}
+
+
+
+ #corps 
+{
+  
+
+  margin-left: 3%;
+  margin-right: 3%;
+  color: black;
+  
+}
+
+h2 {
+  font-size: 1px;
+  font-weight: bold;
+}
+
+/*En haut*/
+
+.top-page
+{
+  
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.block-top {
+  
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.logo
+
+{
+  width: auto;
+  height: auto;
+}
+
+/*NAVIGATION*/
+
+
+nav ul
+{
+  display: flex;
+  list-style: none;
+  margin-right: 110px;
+  padding-right: 30px;
+}
+
+nav a
+{
+ text-decoration: none;
+ display: flex;
+ color: black;
+ 
+}
+
+
+.sinscrire
+{
+  color: #0065FC;
+  font-weight: bold;
+  margin-left: 30px;
+  font-size: 14px ;
+}
+
+.sinscrire a
+{
+  color: #0065FC;
+}
+
+nav li 
+{
+  font-size: 14px;
+  margin-right: 19px;
+  padding-left: 10%;
+}
+
+
+nav a:hover
+{
+  border-top: #0065FC 1px solid;
+  color:#0065FC;
+}
+
+.mqnav1 
+{
+ display: flex;
+ margin-right: 30px;
+}
+
+
+
+ /*block top*/
+
+.accroche
+{
+  font-size: 14px;
+  margin-top: 0.2%;
+}
+
+.titretop
+
+{
+  margin-top: 2%;
+  margin-bottom: 0.2%;
+}
+
+
+
+
+/*Barre de recherche*/
+
+.BR
+{
+  
+  width: 70%;
+  position: relative;
+  display: flex;
+}
+
+.search {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+ 
+  border: 1px solid #F2F2F2;
+  border-right: none;
+  padding-left: 3%;
+  height: 40px;
+ 
+  outline: none;
+  color: black;
+}
+
+ 
+.bouton {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  height: 40px;
+  border: 1px solid #F2F2F2;
+  border-right: none;
+  border-radius: 0 15px 15px 0;
+  color: white;
+  background: #0065FC;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.loupe
+{
+  display: none;
+}
+
+span.iconegps {
+  display: flex;
+  padding: 10px 13px 15px 17px;
+  background: #F2F2F2;
+  font-size: 1.1em;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  height: 15px;
+}
+
+
+/* Filre */
+
+li
+{
+  list-style: none;
+}
+
+.nomfiltre
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px 32px 32px 10px;
+  border: #F2F2F2 3px solid;
+  border-left: none;
+  padding-right: 28px;
+  padding-left: 43px;
+  margin-left: 15px;
+}
+
+.filterbar
+{
+  display: flex;
+  margin-top: 1%;
+  align-items: baseline; 
+}
+
+.filtre
+{
+  font-weight: bold;
+  display: flex;
+}
+
+.filtreliste
+{
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.mqfiltre
+{
+  display: flex;
+}
+span.iconefiltre {
+  
+  color: #0065FC;
+  background-color: #DEEBFF;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -49px;
+  margin-left: 10px;
+
+
+}
+
+.mediafiltre1
+{
+  display: flex;
+}
+
+/* info */
+
+span.iconeinfo
+{
+  display: flex;
+  font-size: 0.6em;
+  justify-content: center;
+  width: 2px;
+  color: #0065FC;
+  border: 1px solid #F2F2F2;
+  border-radius: 50%;
+  padding: 8px;
+  margin-top: 8px;
+  height: 2px;
+  align-items: center;
+}
+
+.info
+
+  {
+  display: flex;
+  text-align:left;
+  }
+
+.infoville
+{
+  font-size: 12px;
+  margin-left: 0.5%;
+}
+
+/* Les étoiles */
+
+.etoilebleu, .etoilegrise
+{
+  font-size: 0.6em;
+}
+
+/* Hebergement */
+
+.groupe1
+{
+  display: flex;
+  margin-top: 0px;
+  
+}
+
+.hebergement
+{
+  
+  width: 60%;
+  border: #F2F2F2 solid 1px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 15px; 
+  padding-left: 40px;
+  padding-right: 15px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.hebergement h1
+{
+  display: flex;
+  font-size: 17px;
+  margin-bottom: 3%;
+  
+}
+ .lienh
+{
+  max-width: 300px;
+}
+
+
+.bloc_h
+{
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);    
+}
+
+
+img.imgblanche {
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  height: 150px;
+  padding: 3px;
+  object-fit: cover;
+}
+
+.imageh
+{
+ max-width: 100%;
+ margin-bottom: 30px;
+ margin-right: 30px;
+ padding-bottom: 10px;
+ padding-top: 2px;
+}
+
+
+p a:visited
+{
+  color: black;
+}
+
+.afficher
+{
+  font-size: 14px;
+  margin-top: 3%;
+  font-weight: bold;
+
+}
+
+/* hebergement et les + populaire*/
+
+.titrehotel
+{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: -6px;
+  
+  
+
+}
+
+.prix
+{
+  font-size: 10px;
+  margin-bottom: 1px;
+}
+
+.prixp
+{
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+.etoile
+{
+  padding-left: 15px;
+  margin-left: -5px;
+}
+
+.etoilebleu
+{
+  color: #0065FC;
+ 
+}
+
+.etoilegrise
+{
+  color: #F2F2F2;
+  
+}
+article {
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-right: 8px;
+  padding-left: 2px;
+  box-shadow: 0px 0px 5px 3px lightgrey;
+}
+
+/* Les plus populaires */
+
+aside {
+  display: flex;
+  width: 20%;
+  background-color: #F2F2F2;
+  border-radius: 15px 15px 15px 15px;
+  padding-left: 3%;
+  padding-right: 3%;
+  flex-direction: column;
+  margin-right: 3%;
+  margin-left: 3%;
+  padding-top: 15px;
+  margin-top: 1%;
+  
+  
+}
+
+aside h1
+{
+  
+  font-size: 17px;
+}
+
+.iconepop
+{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.popicone
+{
+  text-align: center;
+  padding-top: 15px;
+  padding-right: 10px;
+
+}
+
+
+.imagep {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  align-content: space-between;
+}
+
+.imgblanchep {
+  border-radius: 15px 0px 0px 15px;
+  width: 123px;
+  height: 151px;
+  padding-left: 1px;
+  padding-top: 4px;
+  object-fit: cover;
+}
+
+.etoilepopulaire {
+  margin-top: 60px;
+  margin-left: 5px;
+}
+
+.etoilep {
+  margin-top: 0px;
+  margin-left: 10px;
+  padding: 15px 0px 0px 0px;
+}
+
+
+/* Les activités */
+
+
+.groupe2
+{
+ 
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 50% ;
+  gap: 10%; 
+  margin-left: 3%;
+  margin-top: -4%;
+ 
+}
+
+.sous_gpe_2, .sous_gpe3
+{
+  margin-top: 100px;
+  margin-right: 50px;
+  
+}
+
+.activites
+{
+  
+  width: 100%;
+}
+
+.titreactivites
+{
+  color: black;
+  margin-top: 45px;
+  padding-left: 55px;
+
+}
+
+
+.art
+  {
+    margin-bottom: 40px;
+    height: 220px ;
+    width: 330px;
+    padding: 0px 0px  50px 0px;
+    object-fit: cover;
+   
+  }
+
+  .art2
+  
+    {
+    margin-bottom: 37px;
+    height: 190px;
+    width: 330px;
+    padding: 0px 0px  50px 0px;
+    object-fit: cover;
+    
+  }
+  
+
+.imgart3
+  {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+   
+    
+  }
+
+  .imgart4
+  {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+  }
+
+.imgartlast
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
+}
+
+.artlast {
+  background-color: white;
+  margin-top: 25px;
+  border-radius: 15px;
+  box-shadow: #F2F2F2 5px 5px 5px 3px;
+  height: 170px;
+  width: 330px;
+  padding: 0px 0px  44px 0px;
+}
+
+.art1
+{
+  background-color: white;
+  margin-top: 100px;
+  border-radius: 15px ;
+  box-shadow: #F2F2F2 5px 5px 5px 3px;
+  height: 300px;
+  width: 330px;
+  padding: 0px 0px  190px 0px;
+  margin-right: 50px;
+}
+
+.artfrioule {
+  height: 120px;
+  width: 331px;
+  padding: 0px 0px 50px 0px;
+  margin-top: 50px;
+  
+}
+
+.imgart {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  flex-direction: column;
+  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
+}
+
+.imgart2
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0px 0px;
+  box-shadow: #F2F2F2 0px 0px 5px 3px;
+  object-fit: cover;
+}
+
+
+
+.nomactivite
+{
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-left: 15px;
+  padding-bottom: 8px;
+}
+
+
+
+/* Footer desktop */
+
+footer
+{ 
+ 
+    display: flex;
+
+    background-color:#F2F2F2;
+    padding-top: 25px;
+    padding-left: 40px;
+    margin-top: 3%;
+    
+    
+}
+
+footer h1
+{
+    font-size: 1em;
+}
+footer p
+{
+    font-size: 0.8em;
+}
+.propos
+{
+    width: 30%;
+  
+}
+.nosheb
+{
+  width: 30%;
+}
+.assistance
+{
+  width: 30%;
+}
+
+/* Media queries mobile */
+    @media  (max-width: 480px)
+{
+
+body
+{
+  margin: 0%;
+}
+
+#corps
+    {
+      
+      margin-right: 0%;
+      margin-left: 0%;
+    }
+
+/*Top page MQ mobile*/
+
+
+.top-page
+{
+  margin-left: 0%;
+  display:unset;
+}
+
+.sinscrire
+    {
+
+    position: relative;
+     padding-left: 0%;
+     margin-bottom: 10%;
+    }
+
+    .logo {
+      width: 26%;
+      position: relative;
+      margin-bottom: 0%;
+  }
+
+  
+
+  .linav1
+  {
+   width: 50%;
+   align-items: center;
+  }
+  .linav2 {
+    width: 50%;
+    align-items: center;
+    margin-right: 0%;
+    
+}
+  
+    /*block top MQ mobile*/
+
+    .accroche
+    {
+      font-size: 0.8em;
+      margin-top: 3%;
+    }
+
+    .block-top
+
+    {
+      margin-top: 30px;
+      margin-left: 0%;
+    
+    }
+
+    /*Navigation MQ mobile*/
+
+
+      nav
+      {
+          width: 100%;
+          height: 100%;
+          display: unset;
+      }
+      
+      .sinscrire {
+        display: unset;
+        margin-left: 77%;
+        padding-bottom: 3%;
+        padding-left: 0%;
+        margin-right: 0%;
+        position: absolute;
+    }
+    
+      .sinscrire a {
+        display: unset;
+       }
+
+
+        nav ul
+      {
+       
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        margin-right: 0%;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+      }
+
+      nav li
+      {
+          padding-left: 0px;
+      }
+    
+      nav a
+      {
+        display: unset;
+          font-size: 1.1em;
+      }
+    
+      nav a:hover
+      {
+         
+          border-bottom:#0065FC solid 1px ;
+          padding-bottom: 5px;
+          border-top: none;
+      }
+
+    
+
+
+    .mqnav1
+    {
+      align-items: center;
+      border-bottom: #F2F2F2 3px solid;
+      padding-bottom: 0px;
+    }
+
+    .linav1 {
+      padding: 0px 0px 0px 0px;
+      margin-right: 0px;
+  }
+
+
+  .titretop {
+    font-size: 17px;
+}
+  /*Barre de recherche MQ mobile*/
+
+
+  .BR
+  {
+    
+    margin-top: 5%;
+  }
+
+  .search 
+  {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+    
+      border: 1px solid #F2F2F2;
+      border-right: none;
+      padding-left: 35%;
+      height: 40px;
+    
+      outline: none;
+      color: black;
+  }
+
+
+  .bouton 
+  {
+    
+      display: none;
+  }
+
+  .loupe
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: white;
+    background: #0065FC;
+    border-radius: 11px;
+    border: none;
+    padding: 15px 15px 15px 15px;
+  }
+
+  span.iconegps {
+    display: flex;
+    padding: 10px 13px 15px 17px;
+    background: #F2F2F2;
+    font-size: 1.1em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 15px;
+  }
+   /*Filtre MQ mobile*/
+
+   li
+   {
+     list-style: none;
+   }
+
+   .mediafiltre1
+   {
+     display: flex;
+     margin-bottom: 3%;
+   }
+
+   .mqfiltre
+   {
+     display: flex;
+   }
+  
+   .filterbar
+   {
+     display: flex;
+     flex-direction: column;
+     margin-top: 8%;
+   }
+
+   .filtre
+   {
+     
+     font-weight: bold;
+     display: flex;
+     
+   }
+
+   .filtreliste
+   {
+     
+     display: flex;
+     flex-direction: column;
+     font-family: 'Raleway', sans-serif;
+     padding-left: 0%;
+   
+   }
+
+/* Les sections MQ mobile */
+
+.groupe1
+{
+  display: flex;
+  flex-direction: column-reverse;
+}
+/* Hebergement  MQ Mobile*/
+
+.groupe1
+{
+  display: flex;
+  margin-top: 15px;
+  
+}
+
+.hebergement
+{
+  width: 100%;
+  border: none;
+  border-radius: 0%;
+  background-color: white;
+  display: unset;
+  justify-content: center;
+  padding: 0%;
+  margin-left: 6%;
+
+}
+
+.hebergement h1
+{
+    display: unset;
+  font-size: 1em;
+  margin-bottom: 5%;
+  
+}
+
+
+.conteneur
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 2%;
+  
+}
+
+.bloc_h
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+
+}
+
+img.imgblanche
+{
+  
+  border-radius:  15px 15px 0px 0px;
+  width: 100%;
+  height: 100px;
+  padding: 0%;
+  
+}
+
+.imageh {
+  margin-right: 0;
+  padding: 5px;
+  width: 90%;
+}
+
+
+p a:visited
+{
+  color: black;
+}
+
+.afficher
+{
+  font-size: 0.8em;
+  margin-top: 3%;
+  font-weight: bold;
+
+}
+
+/* hebergement et les + populaire MQ Mobile*/
+
+.titrehotel
+{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  font-weight: bold;
+  
+  margin-top: 2px;
+  
+
+}
+
+
+article {
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  box-shadow: 0px 0px 5px 3px lightgrey;
+}
+
+  /* Les plus populaires MQ mobile*/
+
+
+  aside h1
+  {
+    
+    font-size: 1em;
+    margin-left: 5%;
+  }
+
+
+  .iconepop
+  {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+  }
+
+  .popicone
+  {
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 10px;
+
+  }
+
+  .imagep
+  {
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    max-width: 330px;
+    padding: 0px 0px  0px 0px;
+    object-fit: cover;
+    margin-left: 5%;
+  }
+  .imgblanchep
+  {
+    border-radius: 15px 0px 0px 15px;
+    width: 115px;
+  height: 132px;
+    padding-left: 3px;
+    padding-top: 3px;
+
+
+  }
+  aside 
+  {
+    display: unset;
+    width: 100%;
+    border-radius: 0%;
+    padding: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+   
+  }
+
+/* Les activités MQ mobile */
+    
+
+.activites {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+.groupe2
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-left: 0px;
+ 
+}
+
+.sous_gpe_2, .sous_gpe3
+{
+  margin-top: 0px;
+  
+}
+
+
+
+.activites h2
+{
+  color: black;
+  margin-top: 30px;
+  padding-left: 0px;
+  font-size: 17px;
+
+}
+
+.art
+{
+  background-color: white;
+  margin-top: 0px;
+  border-radius: 15px ;
+  box-shadow: #F2F2F2 0px 0px 5px 3px;
+  padding: 0px 0px 50px 0px ;
+  height: 140px;
+  margin-bottom: 5%;
+  width: 107%;
+}
+
+.art1
+{
+  padding: 0px 0px 44px 0px ;
+  height: 150px;
+  margin-top: 5%;
+  width: 92%;
+  margin-bottom: 5%;
+  margin-right: auto;
+}
+
+.art2
+{
+padding: 0px 0px 10px;
+margin-top: 0%;
+margin-bottom: 5%;
+width: 107%;
+
+}
+
+.artfrioule
+{
+  padding: 0px 0px 75px 0px ;
+  margin-top: 0px;
+  width: 107%;
+}
+.imgart, .imgart2, .imgart3
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 160px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.artlast {
+width: 107%;
+}
+
+.nomactivite
+{
+font-size: 0.8em;
+font-weight: bold;
+margin-left: 15px;
+padding-bottom: 8px;
+}
+
+/* Footer media queries mobile */
+
+footer
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding-top: 25px;
+  padding-left: 40px;
+  margin-top: 0px;
+
+}
+
+.propos, .nosheb, .assistance
+{
+  width: 100%;
+}
+
+
+}
