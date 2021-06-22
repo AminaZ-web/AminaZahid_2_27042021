@@ -1196,5 +1196,324 @@ footer
   width: 100%;
 }
 
+}
+
+/* MQ Tablette vertical */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation:portrait) 
+{
+  /* Barre de Navigation */
+
+nav ul
+{
+  margin-right: 0px;
+}
+.titretop, .accroche, .BR 
+{
+
+  margin-bottom: 2.2%;
+  margin-top: 2.2%;
+}
+
+
+
+.filtreliste 
+{
+padding-left: 5px;
+flex-wrap:initial;
 
 }
+
+/* Filtre tablette */
+
+
+.mediafiltre1 
+{
+margin-bottom: 8px;
+}
+
+
+
+.filtreliste
+{
+padding-left: 5px;
+flex-wrap: wrap;
+}
+
+
+/* icones filtre tablette */
+
+span.iconefiltre {
+color: #0065FC;
+background-color: #DEEBFF;
+border-radius: 100%;
+height: 50px;
+width: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: -40px;
+margin-left: 10px;
+}
+
+/* Hebergement tablette */
+
+.titreactivites {
+margin-bottom: 5%;
+}
+.imagep {
+
+width: 50%;
+
+}
+
+.tab_populaire
+{
+display: flex;
+flex-direction: row;
+}
+.groupe1
+{
+display: flex;
+flex-direction: column-reverse;
+width: 100%;
+}
+.hebergement
+
+{
+width: 100%;
+height: auto;
+margin: 0%;
+border-radius: 0px ;
+background: none;
+border: none;
+padding-left: 10px;
+}
+
+.bloc_h
+
+{
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+
+img.imgblanche {
+border-radius: 15px 15px 0px 0px;
+height: 150px;
+padding: 3px;
+object-fit: cover;
+}
+
+/* Les + populaires tablette */
+
+aside {
+
+width: 100%;
+border-radius: 0px;
+padding-left: 4%;
+font-size: 0.9em;
+flex-direction: column;
+margin-left: 0%;
+padding-top: 0px;
+}
+
+.etoilepopulaire {
+margin-top: 20px;
+margin-left: 5px;
+}
+
+/* Activité Marseille Tablette */
+
+.imgart {
+display: flex;
+width: 100%;
+height: 293px;
+flex-direction: column;
+border-radius: 15px 15px 0px 0px;
+object-fit: cover;
+}
+.groupe2
+{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+}
+
+.art1 {
+background-color: white;
+margin-top: 100px;
+border-radius: 15px;
+box-shadow: #F2F2F2 5px 5px 5px 3px;
+height: 146px;
+width: 237px;
+padding: 0px 0px  190px 0px;
+
+}
+
+.art, .art1, .art2, .artfrioule, .artlast
+{
+margin-right: 0%;
+margin-bottom: 10%;
+margin-top: 0%;
+
+}
+
+.art1
+{
+height: 270px;
+margin-top: 15%;
+}
+.imgart
+{
+height: 430px;
+}
+
+.titreactivites {
+margin-bottom: 0%;
+}
+
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape) 
+
+{
+
+ /* Barre de Navigation */
+
+ nav ul
+ {
+   margin-right: 0px;
+ }
+ .titretop, .accroche, .BR 
+ {
+ 
+   margin-bottom: 2.2%;
+   margin-top: 2.2%;
+ }
+ 
+ 
+ 
+ .filtreliste 
+ {
+ padding-left: 5px;
+ flex-wrap:initial;
+ 
+ }
+ 
+ /* Filtre tablette */
+ 
+ 
+ .mediafiltre1 
+ {
+ margin-bottom: 8px;
+ }
+ 
+ 
+ 
+ .filtreliste
+ {
+ padding-left: 5px;
+ flex-wrap: wrap;
+ }
+ 
+ 
+ /* icones filtre tablette */
+ 
+ span.iconefiltre {
+ color: #0065FC;
+ background-color: #DEEBFF;
+ border-radius: 100%;
+ height: 50px;
+ width: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-right: -40px;
+ margin-left: 10px;
+ }
+ 
+ /* Hebergement tablette */
+ 
+ .titreactivites {
+ margin-bottom: 5%;
+ }
+ .imagep {
+ 
+ width: 50%;
+ 
+ }
+ 
+ .tab_populaire
+ {
+ display: flex;
+ flex-direction: row;
+ }
+ .groupe1
+ {
+ display: flex;
+ flex-direction: column-reverse;
+ width: 100%;
+ }
+ .hebergement
+ 
+ {
+ width: 100%;
+ height: auto;
+ margin: 0%;
+ border-radius: 0px ;
+ background: none;
+ border: none;
+ padding-left: 10px;
+ }
+ 
+ .bloc_h
+ 
+ {
+ 
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+ 
+ }
+ 
+ 
+ img.imgblanche {
+ border-radius: 15px 15px 0px 0px;
+ height: 150px;
+ padding: 3px;
+ object-fit: cover;
+ }
+ 
+ /* Les + populaires tablette */
+ 
+ aside {
+ 
+ width: 100%;
+ border-radius: 0px;
+ padding-left: 4%;
+ font-size: 0.9em;
+ flex-direction: column;
+ margin-left: 0%;
+ padding-top: 0px;
+ }
+ 
+ .etoilepopulaire {
+ margin-top: 20px;
+ margin-left: 5px;
+ }
+ 
+ /* Activité Marseille Tablette */
+ 
+ .groupe2
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+}
+
