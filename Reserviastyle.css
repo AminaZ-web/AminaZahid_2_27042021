@@ -465,6 +465,7 @@ aside h1
 
 
 .imagep {
+  width: 90%;
   display: flex;
   margin-top: 10px;
   margin-bottom: 25px;
@@ -681,76 +682,50 @@ footer p
 /* Media queries mobile */
     @media  (max-width: 480px)
 {
-
-body
+ #corps 
 {
-  margin: 0%;
+  
+  
 }
 
-#corps
-    {
-      
-      margin-right: 0%;
-      margin-left: 0%;
-    }
+h2 {
+  font-size: 1px;
+  font-weight: bold;
 
-/*Top page MQ mobile*/
+}
 
+/*En haut*/
 
 .top-page
 {
-  margin-left: 0%;
-  display:unset;
+  
+  width: 100%;
+  display: unset;
+  
+  list-style: none;
+  justify-content: space-between;
 }
 
-.sinscrire
-    {
-
-    position: relative;
-     padding-left: 0%;
-     margin-bottom: 10%;
-    }
-
-    .logo {
-      width: 26%;
-      position: relative;
-      margin-bottom: 0%;
-  }
-
+.block-top {
   
-
-  .linav1
-  {
-   width: 50%;
-   align-items: center;
-  }
-  .linav2 {
-    width: 50%;
-    align-items: center;
-    margin-right: 0%;
-    
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
 }
-  
-    /*block top MQ mobile*/
 
-    .accroche
-    {
-      font-size: 0.8em;
-      margin-top: 3%;
-    }
+.logo
 
-    .block-top
+{
+  width: auto;
+  height: auto;
+}
 
-    {
-      margin-top: 30px;
-      margin-left: 0%;
-    
-    }
-
-    /*Navigation MQ mobile*/
+/*NAVIGATION mq mobile*/
 
 
-      nav
+nav
       {
           width: 100%;
           height: 100%;
@@ -759,10 +734,11 @@ body
       
       .sinscrire {
         display: unset;
-        margin-left: 77%;
+        margin-left: 70%;
         padding-bottom: 3%;
         padding-left: 0%;
         margin-right: 0%;
+        margin-bottom: 10%;
         position: absolute;
     }
     
@@ -796,55 +772,92 @@ body
       nav a:hover
       {
          
-          border-bottom:#0065FC solid 1px ;
-          padding-bottom: 5px;
+          border-bottom:#0065FC solid 3px ;
+          padding-bottom: 0px;
           border-top: none;
       }
 
-    
-
-
-    .mqnav1
-    {
-      align-items: center;
-      border-bottom: #F2F2F2 3px solid;
-      padding-bottom: 0px;
-    }
-
-    .linav1 {
-      padding: 0px 0px 0px 0px;
-      margin-right: 0px;
-  }
-
-
-  .titretop {
-    font-size: 17px;
+.mqnav1 
+{
+  width: 100%;
+ display: flex; 
+ margin-right: 0px;
+ flex-direction: row;
+ border-bottom:#F2F2F2 solid 3px;
 }
-  /*Barre de recherche MQ mobile*/
+
+.linav1
+{
+ width: 50%;
+ text-align: center;
+ margin-right: 0%;
+}
+.linav2 {
+  width: 50%;
+  text-align: center;
+  margin-right: 0%;
+  
+}
 
 
-  .BR
-  {
-    
-    margin-top: 5%;
-  }
 
-  .search 
-  {
-      font-family: 'Raleway', sans-serif;
-      font-weight: bold;
-    
-      border: 1px solid #F2F2F2;
-      border-right: none;
-      padding-left: 35%;
-      height: 40px;
-    
-      outline: none;
-      color: black;
-  }
+ /*block top*/
+
+.accroche
+{
+  font-size: 14px;
+  margin-top: 0.2%;
+
+}
+
+h2
+{
+  font-size: 17px;
+}
+
+.titretop
+
+{
+  margin-top: 2%;
+  margin-bottom: 3.2%;
+  font-size: 22px;
+  width: 100%;
+}
+
+.accroche
+{
+  font-size: 14px;
+  width: 100%;
+}
 
 
-  .bouton 
+
+
+/*Barre de recherche*/
+
+.BR
+{
+  
+  width: 70%;
+  position: relative;
+  display: flex;
+}
+
+.search {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+ 
+  border: 1px solid #F2F2F2;
+  border-right: none;
+  padding-left: 3%;
+  height: 40px;
+ 
+  outline: none;
+  color: black;
+}
+
+ 
+.bouton 
   {
     
       display: none;
@@ -863,15 +876,10 @@ body
     padding: 15px 15px 15px 15px;
   }
 
-  span.iconegps {
-    display: flex;
-    padding: 10px 13px 15px 17px;
-    background: #F2F2F2;
-    font-size: 1.1em;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    height: 15px;
-  }
+
+
+/* Filre */
+
    /*Filtre MQ mobile*/
 
    li
@@ -888,6 +896,7 @@ body
    .mqfiltre
    {
      display: flex;
+     
    }
   
    .filterbar
@@ -915,43 +924,75 @@ body
    
    }
 
-/* Les sections MQ mobile */
+/* info */
+
+span.iconeinfo
+{
+  display: flex;
+  font-size: 0.6em;
+  justify-content: center;
+  width: 2px;
+  color: #0065FC;
+  border: 1px solid #F2F2F2;
+  border-radius: 50%;
+  padding: 8px;
+  margin-top: 8px;
+  height: 2px;
+  align-items: center;
+}
+
+.info
+
+  {
+  display: flex;
+  text-align:left;
+  }
+
+  .infoville {
+    font-size: 16px;
+    margin-left: 3.5%;
+}
+
+/* Les étoiles */
+
+.etoilebleu, .etoilegrise
+{
+  font-size: 0.6em;
+}
+
+/* Hebergement */
 
 .groupe1
 {
   display: flex;
   flex-direction: column-reverse;
-}
-/* Hebergement  MQ Mobile*/
-
-.groupe1
-{
-  display: flex;
-  margin-top: 15px;
+  margin-top: 0px;
   
 }
 
 .hebergement
 {
+  
   width: 100%;
   border: none;
   border-radius: 0%;
-  background-color: white;
+  background-color:white;
+
   display: unset;
   justify-content: center;
   padding: 0%;
-  margin-left: 6%;
-
+  
+  margin-top: 0px; 
+ padding: 0px;
 }
 
 .hebergement h1
 {
-    display: unset;
-  font-size: 1em;
-  margin-bottom: 5%;
-  
-}
+  display: unset;
+  font-size: 17px;
+  margin-bottom: 3%;
 
+}
 
 .conteneur
 {
@@ -962,6 +1003,11 @@ body
   margin-top: 2%;
   
 }
+ .lienh
+{
+  max-width: 0px;
+}
+
 
 .bloc_h
 {
@@ -971,20 +1017,18 @@ body
 
 }
 
-img.imgblanche
-{
-  
-  border-radius:  15px 15px 0px 0px;
-  width: 100%;
-  height: 100px;
-  padding: 0%;
-  
+
+img.imgblanche {
+ 
+  padding: 3px;
+
 }
 
-.imageh {
-  margin-right: 0;
-  padding: 5px;
-  width: 90%;
+.imageh
+{
+  width: 100%;
+ margin-right: 0px;
+ font-size: 0.8em;
 }
 
 
@@ -993,15 +1037,9 @@ p a:visited
   color: black;
 }
 
-.afficher
-{
-  font-size: 0.8em;
-  margin-top: 3%;
-  font-weight: bold;
 
-}
 
-/* hebergement et les + populaire MQ Mobile*/
+/* hebergement et les + populaire*/
 
 .titrehotel
 {
@@ -1009,8 +1047,8 @@ p a:visited
   flex-wrap: wrap;
   font-size: 12px;
   font-weight: bold;
+  margin-bottom: -6px;
   
-  margin-top: 2px;
   
 
 }
@@ -1019,78 +1057,84 @@ p a:visited
 article {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
-  margin-bottom: 10px;
-  margin-right: 40px;
+  margin-right: 10px;
+  padding-right: 8px;
+  padding-left: 2px;
   box-shadow: 0px 0px 5px 3px lightgrey;
 }
 
-  /* Les plus populaires MQ mobile*/
+/* Les plus populaires */
+
+aside {
+  display: unset;
+  width: 100%;
+  background-color: #F2F2F2;
+  border-radius: 0%;
+  padding-right: 0%;
+  margin-bottom: 10%;
+  margin-left: 0%;
+  padding-top: 15px;
+  margin-top: 1%;
+  
+  
+}
+
+aside h1
+{
+  
+  font-size: 17px;
+}
+
+.iconepop
+{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.popicone
+{
+  text-align: center;
+  padding-top: 15px;
+  padding-right: 10px;
+
+}
 
 
-  aside h1
-  {
-    
-    font-size: 1em;
-    margin-left: 5%;
-  }
+.imagep {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  align-content: space-between;
+}
+
+.imgblanchep {
+  border-radius: 15px 0px 0px 15px;
+  width: 123px;
+  height: 151px;
+  padding-left: 1px;
+  padding-top: 4px;
+  object-fit: cover;
+}
+
+.etoilepopulaire {
+  margin-top: 60px;
+  margin-left: 5px;
+}
+
+.etoilep {
+  margin-top: 0px;
+  margin-left: 10px;
+  padding: 15px 0px 0px 0px;
+}
 
 
-  .iconepop
-  {
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-    
-  }
+/* Les activités */
 
-  .popicone
-  {
-    text-align: center;
-    padding-top: 15px;
-    padding-right: 10px;
-
-  }
-
-  .imagep
-  {
-    margin-bottom: 10px;
-    height: 100%;
-    width: 100%;
-    max-width: 330px;
-    padding: 0px 0px  0px 0px;
-    object-fit: cover;
-    margin-left: 5%;
-  }
-  .imgblanchep
-  {
-    border-radius: 15px 0px 0px 15px;
-    width: 115px;
-  height: 132px;
-    padding-left: 3px;
-    padding-top: 3px;
-
-
-  }
-  aside 
-  {
-    display: unset;
-    width: 100%;
-    border-radius: 0%;
-    padding: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-   
-  }
 
 /* Les activités MQ mobile */
     
 
-.activites {
-    display: flex;
-    flex-direction: column;
-    margin-left: 5%;
-    margin-bottom: 30px;
-}
 .groupe2
 {
   display: flex;
@@ -1107,7 +1151,11 @@ article {
   margin-top: 0px;
   
 }
-
+.activites {
+  width: 100%;
+  margin-left: 8px;
+  margin-right: 8px;
+}
 
 
 .activites h2
@@ -1177,17 +1225,18 @@ margin-left: 15px;
 padding-bottom: 8px;
 }
 
+
 /* Footer media queries mobile */
 
 footer
 {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   background-color: #f2f2f2;
   padding-top: 25px;
   padding-left: 40px;
-  margin-top: 0px;
+  margin-top: 10%;
 
 }
 
