@@ -1,0 +1,897 @@
+/* Media queries mobile */
+@media  (max-width: 480px)
+{
+
+body
+{
+    width: 375px;
+    margin: 0px;
+}
+
+#corps
+{
+    margin: 0;
+}
+h2 {
+  font-size: 1px;
+  font-weight: bold;
+
+}
+
+/*En haut*/
+
+.top-page
+{
+  
+  width: 100%;
+  display: unset;
+  margin-left: 0%;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block-top {
+  
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.logo
+
+{
+  width: 26%;
+    position: relative;
+    margin-bottom: 0%;
+}
+
+/*NAVIGATION mq mobile*/
+
+
+nav
+      {
+          width: 100%;
+          height: 100%;
+          display: unset;
+      }
+      
+      .sinscrire {
+        display: unset;
+        margin-left: 70%;
+        padding-bottom: 3%;
+        padding-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 10%;
+        position: absolute;
+        font-size: 1em;
+    }
+
+      .sinscrire a {
+        display: flex;
+        top: 0;
+        right: 0;
+        position: relative;
+       }
+
+
+        nav ul
+      {
+       
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        margin-right: 0%;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+      }
+
+      nav li
+      {
+          padding-left: 0px;
+          
+      }
+    
+      nav a
+      {
+        display: unset;
+          font-size: 1.1em;
+      }
+    
+      nav a:hover
+      {
+         
+          border-bottom:#0065FC solid 3px ;
+          padding-bottom: 0px;
+          border-top: none;
+      }
+
+.mqnav1 
+{
+  width: 100%;
+ display: flex; 
+ margin-right: 0px;
+ flex-direction: row;
+ border-bottom:#F2F2F2 solid 3px;
+}
+
+.linav1
+{
+ width: 50%;
+ text-align: center;
+ margin-right: 0%;
+}
+
+
+
+.linav2 {
+  width: 50%;
+  text-align: center;
+  margin-right: 0%;
+  
+}
+
+
+
+ /*block top*/
+
+.accroche
+{
+  font-size: 14px;
+  margin-top: 0.2%;
+
+}
+
+h2
+{
+  font-size: 17px;
+}
+
+.titretop
+
+{
+  margin-top: 2%;
+  margin-bottom: 3.2%;
+  margin-left: 0px;
+  font-size: 1.4em;
+  width: 100%;
+}
+
+.accroche
+{
+  font-size: 14px;
+  width: 100%;
+}
+
+
+
+
+/*Barre de recherche*/
+
+.BR
+{
+  
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+ 
+  border: 1px solid #F2F2F2;
+  border-right: none;
+  padding-left: 3%;
+  height: 40px;
+ 
+  outline: none;
+  color: black;
+}
+
+ 
+.bouton 
+  {
+    
+      display: none;
+  }
+
+  .loupe
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: white;
+    background: #0065FC;
+    border-radius: 11px;
+    border: none;
+    padding: 15px 15px 15px 15px;
+  }
+
+
+
+/* Filre */
+
+   /*Filtre MQ mobile*/
+
+   li
+   {
+     list-style: none;
+   }
+
+   .mediafiltre1
+   {
+     display: flex;
+     margin-bottom: 3%;
+   }
+
+   .mqfiltre
+   {
+     display: flex;
+     
+   }
+  
+   .filterbar
+   {
+     display: flex;
+     flex-direction: column;
+     margin-top: 8%;
+   }
+
+   .filtre
+   {
+     
+     font-weight: bold;
+     display: flex;
+     
+   }
+
+   .filtreliste
+   {
+     
+     display: flex;
+     flex-direction: column;
+     font-family: 'Raleway', sans-serif;
+     padding-left: 0%;
+   
+   }
+
+/* info */
+
+span.iconeinfo
+{
+  display: flex;
+  font-size: 0.6em;
+  justify-content: center;
+  width: 2px;
+  color: #0065FC;
+  border: 1px solid #F2F2F2;
+  border-radius: 50%;
+  padding: 8px;
+  margin-top: 8px;
+  height: 2px;
+  align-items: center;
+}
+
+.info
+
+  {
+  display: flex;
+  text-align:left;
+  }
+
+  .infoville {
+    font-size: 16px;
+    margin-left: 0%;
+}
+
+/* Les étoiles */
+
+.etoilebleu, .etoilegrise
+{
+  font-size: 0.6em;
+}
+
+/* Hebergement */
+
+.groupe1
+{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 0px;
+  
+}
+
+.hebergement
+{
+  
+  width: 100%;
+  border: none;
+  border-radius: 0%;
+  background-color:white;
+
+  display: unset;
+  justify-content: center;
+  padding: 0%;
+  
+  margin-top: 0px; 
+ padding: 0px;
+}
+
+.hebergement h1
+{
+  display: unset;
+  font-size: 17px;
+  margin-bottom: 3%;
+
+}
+
+.conteneur
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 0%;
+  margin-top: 2%;
+  
+}
+ .lienh
+{
+  max-width: 0px;
+}
+
+
+.bloc_h
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+
+}
+
+
+img.imgblanche {
+ 
+  padding: 3px;
+
+}
+
+.imageh
+{
+  width: 100%;
+ margin-right: 0px;
+ font-size: 0.8em;
+}
+
+
+p a:visited
+{
+  color: black;
+}
+
+
+
+/* hebergement et les + populaire*/
+
+.titrehotel
+{
+ 
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: -6px;
+  
+  
+
+}
+
+
+article {
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  margin-right: 0px;
+  padding-right: 8px;
+  padding-left: 2px;
+  box-shadow: 0px 0px 5px 3px lightgrey;
+}
+
+/* Les plus populaires */
+
+aside {
+  display: unset;
+  width: 100%;
+  background-color: #F2F2F2;
+  border-radius: 0%;
+  padding-right: 0%;
+  margin-bottom: 10%;
+  margin-left: 0%;
+  padding-top: 15px;
+  margin-top: 1%;
+  
+  
+}
+
+aside h1
+{
+  
+  font-size: 17px;
+}
+
+.iconepop
+{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.popicone
+{
+  text-align: center;
+  padding-top: 15px;
+  padding-right: 10px;
+
+}
+
+
+.imagep {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  align-content: space-between;
+}
+
+.imgblanchep {
+  border-radius: 15px 0px 0px 15px;
+  width: 128px;
+  height: 100px;
+  padding-left: 1px;
+  padding-top: 4px;
+  object-fit: cover;
+}
+
+
+.prixp
+{
+    margin: 0px;
+}
+
+/* Les activités */
+
+
+/* Les activités MQ mobile */
+    
+
+.groupe2
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-left: 0px;
+ 
+}
+
+.sous_gpe_2, .sous_gpe3
+{
+  margin-top: 0px;
+  
+}
+.activites {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+.activites h2
+{
+  color: black;
+  margin-top: 30px;
+  padding-left: 0px;
+  font-size: 17px;
+
+}
+
+.art
+{
+  background-color: white;
+  margin-top: 0px;
+  border-radius: 15px ;
+  box-shadow: #F2F2F2 0px 0px 5px 3px;
+  padding: 0px 0px 50px 0px ;
+  height: 140px;
+  margin-bottom: 5%;
+  width: 360px;
+}
+
+.art1
+{
+  padding: 0px 0px 44px 0px ;
+  height: 150px;
+  margin-top: 5%;
+  width: 360px;
+  margin-bottom: 5%;
+  margin-right: 0px;
+}
+
+.art2
+{
+padding: 0px 0px 10px;
+margin-top: 0%;
+margin-bottom: 5%;
+width: 360px;
+
+}
+
+.artfrioule
+{
+  padding: 0px 0px 75px 0px ;
+  margin-top: 0px;
+  width: 360px;
+}
+.imgart, .imgart2, .imgart3
+{
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 160px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.artlast {
+width: 360px;
+}
+
+.nomactivite
+{
+font-size: 0.8em;
+font-weight: bold;
+margin-left: 15px;
+padding-bottom: 8px;
+}
+
+
+/* Footer media queries mobile */
+
+footer
+{
+  display: flex;
+  flex-direction: column;
+  
+  background-color: #f2f2f2;
+  padding-top: 25px;
+  padding-left: 40px;
+  margin-top: 10%;
+
+}
+
+.propos, .nosheb, .assistance
+{
+  width: 100%;
+}
+
+}
+
+/* MQ Tablette vertical */
+
+@media  screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation:portrait) 
+{
+  /* Barre de Navigation */
+
+nav ul
+{
+  margin-right: 0px;
+}
+.titretop, .accroche, .BR 
+{
+
+  margin-bottom: 2.2%;
+  margin-top: 2.2%;
+}
+
+
+
+.filtreliste 
+{
+padding-left: 5px;
+flex-wrap:initial;
+
+}
+
+/* Filtre tablette */
+
+
+.mediafiltre1 
+{
+margin-bottom: 8px;
+}
+
+
+
+.filtreliste
+{
+padding-left: 5px;
+flex-wrap: wrap;
+}
+
+
+/* icones filtre tablette */
+
+span.iconefiltre {
+color: #0065FC;
+background-color: #DEEBFF;
+border-radius: 100%;
+height: 50px;
+width: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: -40px;
+margin-left: 10px;
+}
+
+/* Hebergement tablette */
+
+.titreactivites {
+margin-bottom: 5%;
+}
+.imagep {
+
+width: 50%;
+
+}
+
+.tab_populaire
+{
+display: flex;
+flex-direction: row;
+}
+.groupe1
+{
+display: flex;
+flex-direction: column-reverse;
+width: 100%;
+}
+.hebergement
+
+{
+width: 100%;
+height: auto;
+margin: 0%;
+border-radius: 0px ;
+background: none;
+border: none;
+padding-left: 10px;
+}
+
+.bloc_h
+
+{
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+
+img.imgblanche {
+border-radius: 15px 15px 0px 0px;
+height: 150px;
+padding: 3px;
+object-fit: cover;
+}
+
+/* Les + populaires tablette */
+
+aside {
+
+width: 100%;
+border-radius: 0px;
+padding-left: 4%;
+font-size: 0.9em;
+flex-direction: column;
+margin-left: 0%;
+padding-top: 0px;
+}
+
+.etoilepopulaire {
+margin-top: 20px;
+margin-left: 5px;
+}
+
+/* Activité Marseille Tablette */
+
+.imgart {
+display: flex;
+width: 100%;
+height: 293px;
+flex-direction: column;
+border-radius: 15px 15px 0px 0px;
+object-fit: cover;
+}
+.groupe2
+{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+}
+
+.art1 {
+background-color: white;
+margin-top: 100px;
+border-radius: 15px;
+box-shadow: #F2F2F2 5px 5px 5px 3px;
+height: 146px;
+width: 237px;
+padding: 0px 0px  190px 0px;
+
+}
+
+.art, .art1, .art2, .artfrioule, .artlast
+{
+margin-right: 0%;
+margin-bottom: 10%;
+margin-top: 0%;
+
+}
+
+.art1
+{
+height: 270px;
+margin-top: 15%;
+}
+.imgart
+{
+height: 430px;
+}
+
+.titreactivites {
+margin-bottom: 0%;
+}
+
+}
+@media  screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape) 
+
+{
+
+ /* Barre de Navigation */
+
+ nav ul
+ {
+   margin-right: 0px;
+ }
+ .titretop, .accroche, .BR 
+ {
+ 
+   margin-bottom: 2.2%;
+   margin-top: 2.2%;
+ }
+ 
+ 
+ 
+ .filtreliste 
+ {
+ padding-left: 5px;
+ flex-wrap:initial;
+ 
+ }
+ 
+ /* Filtre tablette */
+ 
+ 
+ .mediafiltre1 
+ {
+ margin-bottom: 8px;
+ }
+ 
+ 
+ 
+ .filtreliste
+ {
+ padding-left: 5px;
+ flex-wrap: wrap;
+ }
+ 
+ 
+ /* icones filtre tablette */
+ 
+ span.iconefiltre {
+ color: #0065FC;
+ background-color: #DEEBFF;
+ border-radius: 100%;
+ height: 50px;
+ width: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-right: -40px;
+ margin-left: 10px;
+ }
+ 
+ /* Hebergement tablette */
+ 
+ .titreactivites {
+ margin-bottom: 5%;
+ }
+ .imagep {
+ 
+ width: 50%;
+ 
+ }
+ 
+ .tab_populaire
+ {
+ display: flex;
+ flex-direction: row;
+ }
+ .groupe1
+ {
+ display: flex;
+ flex-direction: column-reverse;
+ width: 100%;
+ }
+ .hebergement
+ 
+ {
+ width: 100%;
+ height: auto;
+ margin: 0%;
+ border-radius: 0px ;
+ background: none;
+ border: none;
+ padding-left: 10px;
+ }
+ 
+ .bloc_h
+ 
+ {
+ 
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+ 
+ }
+ 
+ 
+ img.imgblanche {
+ border-radius: 15px 15px 0px 0px;
+ height: 150px;
+ padding: 3px;
+ object-fit: cover;
+ }
+ 
+ /* Les + populaires tablette */
+ 
+ aside {
+ 
+ width: 100%;
+ border-radius: 0px;
+ padding-left: 4%;
+ font-size: 0.9em;
+ flex-direction: column;
+ margin-left: 0%;
+ padding-top: 0px;
+ }
+ 
+ .etoilepopulaire {
+ margin-top: 20px;
+ margin-left: 5px;
+ }
+ 
+ /* Activité Marseille Tablette */
+ 
+ .groupe2
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+}
