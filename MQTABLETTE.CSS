@@ -1,0 +1,142 @@
+@media  screen
+
+and (min-device-width : 480px) 
+and (orientation:portrait) {
+    
+    #corps, body
+    {
+        margin: 0px;
+    }
+
+    /* Logo et Navigation Mobile*/
+   
+    .logo{
+        width: 15%;
+    }
+
+    nav ul{
+        margin-right: 20px;
+    }
+
+    
+    
+      /* Titre et barre de recherche Mobile */
+
+      .titretop{
+          margin-bottom: 3%;
+      }
+
+
+    .block-top, .logo{
+        margin-left: 3%;
+      }
+
+    .bouton {  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        color: white;
+        background: #0065FC;
+        border-radius: 11px;
+        border: none;
+        padding: 15px 15px 15px 15px;
+        }
+
+    .loupe{
+            display: none;
+        }
+
+   .filterbar
+   {
+       flex-direction: column;
+       align-items: unset;
+      
+   }
+    .filtreliste{
+        padding: 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .nomtablette
+    {
+        width: 30%;
+    }
+
+
+    .groupe1
+    {
+        flex-direction: column;
+    }
+
+    .hebergement, aside{
+        width: 100%;
+        margin-right: 0%;
+        border: none;
+        border-radius: unset;
+        padding-left: 0%;
+    }
+
+    .hebergement{
+        margin-bottom: 3%;
+    }
+
+    .groupe2 {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    
+    .article_activite{
+        width: 300px;
+    }
+    
+    .img_ND,.img_pomegue {
+        height: 100px;
+    }
+
+    .img_grande{
+        height: 255px;
+    }
+
+    .article_activite_g {
+        width: 300px;
+        margin-bottom: 3%;
+        height: 285px;
+        margin-right: 80px;
+    }
+    
+    .titreactivites {
+        margin-top: 20px;
+        padding-left: 40px;
+    }
+}
+
+
+@media  screen
+
+and (min-device-width : 480px)
+and (orientation:landscape) {
+
+    
+
+    body{
+        margin: 0px 0px 0px 0px;
+    }
+
+    .p_image{
+        width: 80px;
+    }
+
+}
+
+@media screen and (min-device-width: 1480px)
+{
+    .h_image{
+        width: 300px;
+    }
+}
+

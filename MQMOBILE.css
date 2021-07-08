@@ -1,0 +1,223 @@
+/* Media queries mobile */
+
+@media (max-width: 480px){
+
+    #corps, body
+    {
+        margin: 0px;
+    }
+
+    /* Logo et Navigation Mobile*/
+    .top-page {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .logo{
+        width: 26%;
+    }
+
+    nav ul 
+    {
+       display: unset;
+    }
+
+    nav a{
+        padding: 0px;
+    }
+    nav a:hover {
+          border-top: none; 
+      }
+
+
+      .sinscrire {
+        
+        bottom: 77px;
+        left: 70%;
+        margin: 0px;
+        position: relative;
+    } 
+    
+    .linav1:hover, .linav2:hover{
+        border-bottom:#0065FC solid 2px ;
+        padding-bottom: 10px;
+    }
+
+    .linav1, .linav2{
+        width: 50%;
+        border-bottom:#F2F2F2 2px solid ;
+        margin-right: 0px;
+        padding-bottom: 10px;
+    }
+
+     
+    .mqnav1{  
+        margin-right: 0px;
+        justify-content: space-evenly;
+    
+       
+      }
+
+      /* Titre et barre de recherche Mobile */
+
+      .titretop{
+          font-size: 24px;
+          margin-bottom: 3%;
+      }
+
+
+    .block-top, .logo{
+        margin-left: 5%;
+      }
+
+    .bouton {  
+            display: none;
+        }
+
+    .loupe{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 10px;
+            color: white;
+            background: #0065FC;
+            border-radius: 11px;
+            border: none;
+            padding: 15px 15px 15px 15px;
+        }
+
+        .search{
+            width: 55%;
+        }
+   .filterbar
+   {
+       flex-direction: column;
+       align-items: unset;
+      
+   }
+    .filtreliste{
+        padding: 0px;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .mediafiltre1
+    {
+        margin-bottom: 3%;
+        width: 55%;
+    }
+
+
+    /* Hebergement Mobile */
+
+    .groupe1{
+        flex-direction: column-reverse;
+    }
+
+    .hebergement
+    {
+        background-color: unset;
+        border-radius: 0px;
+        margin: 0px;
+        display: unset;
+        border: unset;
+        width: 100%;
+        
+    }
+
+    .ligne_hebergement1
+    {
+        justify-content: space-evenly;
+    }
+
+    .h_carte
+    {
+        border: solid #F2F2F2;
+        box-shadow:  #F2F2F2 3px 5px 5px 3px;;
+    }
+
+    .h_image {
+        width: 330px;
+        height: 100px;
+    }
+
+    p a {
+        font-size: 16px;
+        margin-left: 9%;
+    }
+    /* Les + populaires Mobile*/
+    aside
+    {
+       border-radius: 0px;
+       border: unset;
+       width: 100%;
+       padding: 0px;
+    }
+
+    .iconepop h1 {
+      margin : 5% 0% 5% 3%;
+    }
+    .popicone {
+        margin-top: 5%;
+    }
+   .p_carte{
+       width: 100%;
+       margin-bottom: 0px;
+   }
+
+   .tab_populaire{
+       margin: 3%;
+   }
+
+
+   /* Activités MQ Mobile */
+
+   .groupe2 {
+    justify-content: center;
+    margin-right: 0%; 
+    margin-left: 0%;
+}
+
+    .sous_gpe1{
+        flex-direction: column;
+        
+    }
+
+.article_activite{
+    width: 330px;
+    margin-right: 0px;
+}
+
+.img_grande, .img_ND,.img_pomegue {
+    height: 100px;
+}
+.article_activite_g {
+    width: 330px;
+    margin-bottom: 3%;
+    height: 135px;
+    margin-right: 0px;
+}
+
+.titreactivites {
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+
+/* Footer media queries mobile */
+
+footer
+{
+  flex-direction: column;
+  padding-top: 25px;
+  padding-left: 40px;
+  margin-top: 10%;
+
+}
+
+.propos, .nosheb, .assistance
+{
+ width: 100%;
+}
+
+}

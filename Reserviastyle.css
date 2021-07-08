@@ -1,813 +1,551 @@
 /*BODY*/
-
 a
 {
-  text-decoration: none;
+	text-decoration: none;
 }
 
-
-body 
+body
 {
-  font-family: 'Raleway', sans-serif;
-  width: 100%;
- 
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
 }
 
-
-
- #corps 
+#corps
 {
-  
-
-  margin-left: 3%;
-  margin-right: 3%;
-  color: black;
-  
-}
-
-h2 {
-  font-size: 1px;
-  font-weight: bold;
-}
-
-/*En haut*/
-
-.top-page
-{
-  
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.block-top {
-  
-  
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-direction: column;
- 
-}
-
-
-/*NAVIGATION*/
-
-
-
-nav ul
-{
-  display: flex;
-  list-style: none;
-  margin-right: 10px;
-  
-  
-}
-
-nav a
-{
- text-decoration: none;
- padding-top: 33px;
- color: black;
-
- 
-}
-
-
-.sinscrire
-{
-  color: #0065FC;
-  font-weight: bold;
-  margin-left: 30px;
-  font-size: 14px ;
-}
-
-.sinscrire a
-{
-  color: #0065FC;
-}
-
-nav li 
-{
-  font-size: 14px;
-  margin-right: 19px;
-  padding-left: 10%;
-  
-}
-
-
-nav a:hover
-{
-  border-top: #0065FC 3px solid;
-  color:#0065FC;
-  
-}
-
-.mqnav1 
-{
- display: flex;
- margin-right: 30px;
-}
-
-
-
- /*block top*/
-
-.accroche
-{
-  font-size: 14px;
-  margin-top: 0.2%;
-
+	margin-left: 3%;
+	margin-right: 3%;
+	color: black;
 }
 
 h2
 {
-  font-size: 17px;
+	font-size: 1px;
+	font-weight: bold;
+}
+
+/*En haut*/
+.top-page
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.block-top
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+/*NAVIGATION*/
+nav ul
+{
+	display: flex;
+	list-style: none;
+	margin-right: 10px;
+}
+
+nav a
+{
+	text-decoration: none;
+	padding-top: 33px;
+	color: black;
+}
+
+.sinscrire
+{
+	color: #0065FC;
+	font-weight: bold;
+	margin-left: 30px;
+	font-size: 14px ;
+}
+
+.sinscrire a
+{
+	color: #0065FC;
+}
+
+nav li
+{
+	font-size: 14px;
+	margin-right: 19px;
+	padding-left: 10%;
+}
+
+nav a:hover
+{
+	border-top: #0065FC 3px solid;
+	color:#0065FC;
+}
+
+.mqnav1
+{
+	display: flex;
+	margin-right: 30px;
+}
+
+/*block top*/
+.accroche
+{
+	font-size: 14px;
+	margin-top: 0.2%;
+}
+
+h2
+{
+	font-size: 17px;
 }
 
 .titretop
-
 {
-  margin-top: 2%;
-  margin-bottom: 0.2%;
-  max-width: 100%;
+	margin-top: 2%;
+	margin-bottom: 0.2%;
+	max-width: 100%;
 }
-
-
-
 
 /*Barre de recherche*/
-
 .BR
 {
-  
-  height: 40px;
-  position: relative;
-  display: flex;
+	height: 40px;
+	position: relative;
+	display: flex;
 }
 
-.search {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  max-width: 100%;
-  border: 1px solid #F2F2F2;
-  border-right: none;
-  padding-left: 3%;
-  height: 40px;
- 
-  outline: none;
-  color: black;
+.search
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	max-width: 100%;
+	border: 1px solid #F2F2F2;
+	border-right: none;
+	padding-left: 3%;
+	height: 40px;
+	outline: none;
+	color: black;
 }
 
- 
-.bouton {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bolder;
-  height: 40px;
-  border: 1px solid #F2F2F2;
-  border-right: none;
-  border-radius: 0 15px 15px 0;
-  color: white;
-  background: #0065FC;
-  padding-left: 15px;
-  padding-right: 15px;
+.bouton
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	height: 40px;
+	border: 1px solid #F2F2F2;
+	border-right: none;
+	border-radius: 0 15px 15px 0;
+	color: white;
+	background: #0065FC;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .loupe
 {
-  display: none;
+	display: none;
 }
 
-span.iconegps {
-  padding: 10px 13px 15px 17px;
-  background: #F2F2F2;
-  font-size: 1.1em;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  height: 15px;
+span.iconegps
+{
+	padding: 10px 13px 15px 17px;
+	background: #F2F2F2;
+	font-size: 1.1em;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	height: 15px;
 }
-
 
 /* Filre */
-
 li
 {
-  list-style: none;
+	list-style: none;
 }
 
 .nomfiltre
 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 10px 32px 32px 10px;
-  border: #F2F2F2 3px solid;
-  border-left: none;
-  padding-right: 28px;
-  padding-left: 43px;
-  margin-left: 15px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left: 10px;
 }
 
 .filterbar
 {
-  display: flex;
-  margin-top: 1%;
-  max-width: 100%;
+	display: flex;
+	align-items: center;
+	margin-top: 1%;
+	max-width: 100%;
 }
 
 .filtre
 {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .filtreliste
 {
-  display: flex;
-  font-family: 'Raleway', sans-serif;
+	display: flex;
+	font-family: 'Raleway', sans-serif;
 }
-
 
 .mqfiltre
 {
-  display: flex;
- 
+	display: flex;
 }
-span.iconefiltre {
-  
-  color: #0065FC;
-  background-color: #DEEBFF;
-  border-radius: 100%;
-  height: 50px;
-  width: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: -49px;
-  margin-left: 10px;
 
-
+span.iconefiltre
+{
+	color: #0065FC;
+	background-color: #DEEBFF;
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .mediafiltre1
 {
-  display: flex;
-  
+	display: flex;
+	margin-left: 10px;
+	border-radius: 32px 32px 32px 32px;
+	border: #F2F2F2 3px solid;
+	border-left: none;
+	padding-right: 28px;
 }
 
 .mediafiltre1:hover
 {
-   
-        background-color:#84a6da;
-        color: white;
-        cursor: pointer;
-        transition: 0.4s;
-        border-radius: 32px 32px 32px 35px;
-    
+	background-color:#84a6da;
+	color: white;
+	cursor: pointer;
+	transition: 0.4s;
+	border-radius: 32px 32px 32px 35px;
 }
 
 /* info */
-
 span.iconeinfo
 {
-  display: flex;
-  font-size: 0.6em;
-  justify-content: center;
-  width: 2px;
-  color: #0065FC;
-  border: 1px solid #F2F2F2;
-  border-radius: 50%;
-  padding: 8px;
-  margin-top: 8px;
-  height: 2px;
-  align-items: center;
+	display: flex;
+	font-size: 0.6em;
+	justify-content: center;
+	width: 2px;
+	color: #0065FC;
+	border: 1px solid #F2F2F2;
+	border-radius: 50%;
+	padding: 8px;
+	margin-top: 8px;
+	height: 2px;
+	align-items: center;
 }
 
 .info
-
-  {
-  display: flex;
-  text-align:left;
-  }
+{
+	display: flex;
+	text-align:left;
+}
 
 .infoville
 {
-  font-size: 12px;
-  margin-left: 0.5%;
+	font-size: 12px;
+	margin-left: 0.5%;
 }
 
 /* Les étoiles */
-
 .etoilebleu, .etoilegrise
 {
-  font-size: 0.6em;
+	font-size: 0.6em;
 }
 
 /* Hebergement */
-
 .hebergement
 {
-  background-color: #F2F2F2;
-  width: 70%;
-  border: #F2F2F2 solid 1px;
-  border-radius: 15px 15px 15px 15px;
-  margin-right: 3%;
-  display: flex;
-  flex-direction: column;
-
+	background-color: #F2F2F2;
+	width: 70%;
+	border: #F2F2F2 solid 1px;
+	border-radius: 15px 15px 15px 15px;
+	margin-right: 3%;
+	display: flex;
+	flex-direction: column;
 }
 
-
-.ligne_hebergement1
+.h_bloc
 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly; 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .h_image
 {
-  width: 230px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 15px 15px 0px 0px;
+	width: 250px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
 }
 
 .h_carte
 {
-  background-color: white;
-  padding: 3px 3px 0px 3px;
-  margin-top: 3%;
-  border-radius: 15px 15px 15px 15px;
+	background-color: white;
+	padding: 3px 3px 0px 3px;
+	margin-top: 3%;
+	border-radius: 15px 15px 15px 15px;
 }
 
-.hebergement h1 {
-  font-size: 17px;
-  margin-left: 3%;
-  margin-top: 4%;
-  margin-bottom: 0px;
+.hebergement h1
+{
+	font-size: 17px;
+	margin-left: 3%;
+	margin-top: 4%;
+	margin-bottom: 0px;
 }
 
-p a {
-  font-size: 14px;
-  font-weight: bold;
-  margin-left: 3%;
-}
-p a:visited{
-  color: black;
+p a
+{
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 3%;
 }
 
-p.afficher {
- 
-  padding: 10px 0px 10px 0px;
+p a:visited
+{
+	color: black;
+}
+
+p.afficher
+{
+	padding: 10px 0px 10px 0px;
 }
 
 .groupe1
 {
-  display: flex;
-  margin-top: 0px;  
+	display: flex;
+	margin-top: 0px;
 }
 
 /* hebergement et les + populaire*/
-
 .titrehotel
 {
-  
-  font-size: 12px;
-  font-weight: bold;
-  margin: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0px;
 }
 
 .prix
 {
-  font-size: 10px;
-  margin: 0px;
-
+	font-size: 10px;
+	margin: 0px;
 }
 
 .prixp
 {
-  font-size: 10px;
-  margin: 0px;
-
+	font-size: 10px;
+	margin: 0px;
 }
 
 .etoile
 {
-  padding-left: 15px;
-  display: flex;
-  flex-direction: column;
-  
+	padding-left: 15px;
+	display: flex;
+	flex-direction: column;
 }
 
 .etoilebleu
 {
-  color: #0065FC;
- 
+	color: #0065FC;
 }
 
 .etoilegrise
 {
-  color: #F2F2F2;
-  
+	color: #F2F2F2;
 }
 
+.etoile_gpe
+{
+	padding-bottom: 5px;
+}
 
 /* Les plus populaires */
-
 aside
 {
-  background-color: #F2F2F2 ;
-  border: #F2F2F2 solid;
-  border-radius: 15px 15px 15px 15px;
-  width: 27%;
-  padding: 2% 0% 0% 2% ;
-  
+	background-color: #F2F2F2 ;
+	border: #F2F2F2 solid;
+	border-radius: 15px 15px 15px 15px;
+	width: 27%;
+	padding: 2% 0% 0% 2% ;
 }
+
 /* header des + populaires */
 .iconepop h1
 {
-  font-size: 17px;
+	font-size: 17px;
 }
 
 .iconepop
 {
-  display: flex;
-  flex-direction:row;
-  justify-content: space-between;
-}
-
-.popicone {
-  margin-top: 17px;
-  margin-right: 15px;
-  align-items: center;
-}
-
-/* le coprs des + populaire */
-
-.p_image
-{
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 15px 0px 0px 15px;
-  padding: 3px 0px 3px 3px;
-}
-
-.p_carte
-{
-  background-color: white;
-  margin-top: 3%;
-  margin-bottom: 30px;
-  width: 90%;
-  border-radius: 15px 15px 15px 15px;  
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 0px;
-
-}
-
-.etoilep {
-  margin: 10px 0px 0px 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-a {
-
-  height: 106px;
- 
-}
-
-/*
-aside {
-  display: flex;
-  width: 30%;
-  background-color: #F2F2F2;
-  border-radius: 15px 15px 15px 15px;
-  padding-left: 3%;
-  padding-right: 3%;
-  flex-direction: column;
-  margin-left: 3%;
-  padding-top: 15px;
-  margin-top: 1%;
-  
-  
-}
-
-aside h1
-{
-  
-  font-size: 17px;
-}
-
-.iconepop
-{
-  display: flex;
-  flex-direction:row;
-  justify-content: space-between;
-  padding-top: 15px;
-  padding-bottom: 10px;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
 }
 
 .popicone
 {
-  text-align: center;
-  padding-top: 15px;
-  padding-right: 10px;
-
+	margin-top: 17px;
+	margin-right: 15px;
+	align-items: center;
 }
 
-
-.imagep {
-  
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 25px;
-  margin-right: 0px;
-  padding-left: 2px;
-  padding-right: 0px;
-  margin-top: 0px;
-}
-
-.imgblanchep {
-  border-radius: 15px 0px 0px 15px;
-  width: 123px;
-  height: 151px;
-  padding-left: 1px;
-  padding-top: 4px;
-  object-fit: cover;
-}
-
-
-
-.etoilep {
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding-left: 15px;
-}
-*/
-
-/* Les activités */
-
-
-/* .groupe2
+/* le coprs des + populaire */
+.p_image
 {
- 
-  display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 50% ;
-  gap: 10%; 
-  margin-left: 3%;
-  margin-top: -4%;
- 
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 15px 0px 0px 15px;
+	padding: 3px 0px 3px 3px;
 }
 
-.sous_gpe_2, .sous_gpe3
+.p_carte
 {
-  margin-top: 100px;
- 
-  
+	background-color: white;
+	margin-top: 3%;
+	margin-bottom: 30px;
+	width: 90%;
+	border-radius: 15px 15px 15px 15px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 0px;
 }
 
-*/
+.etoilep
+{
+	margin: 10px 0px 0px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
 
+a
+{
+	height: 106px;
+}
 
-.groupe2 {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 3%;
-  margin-left: 3%;
-  flex-wrap: wrap;
+.groupe2
+{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 .titreactivites
 {
-  color: black;
-  margin-top: 45px;
-  padding-left: 55px;
+	color: black;
+	margin-top: 45px;
+	padding-left: 55px;
 }
 
 .nomactivite
 {
-  font-size: 12px;
-  font-weight: bold;
-  margin-left: 10px;
-  padding-bottom: 5px;
- 
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 10px;
+	padding-bottom: 5px;
 }
 
 .article_activite
 {
-
-  margin-right: 0px;
-  margin-bottom: 0px;
-  width: 200px;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: #F2F2F2 5px 5px 5px 3px;
-  
- 
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width: 250px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: #F2F2F2 5px 5px 5px 3px;
 }
 
 .article_activite_g
 {
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: #F2F2F2 5px 5px 5px 3px;
-  height: 300px;
-  width: 200px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: #F2F2F2 5px 5px 5px 3px;
+	height: 300px;
+	width: 250px;
+	margin-right: 100px;
 }
 
-
+.sous_gpe1
+{
+	display: flex;
+}
 
 /* Images vp et parc national des calanques */
 .img_grande
 {
-  width: 100%;
-  height: 260px;
-  object-fit: cover;
-  border-radius: 15px 15px 0px 0px;
-  
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
 }
 
 /* Image Pomègue */
-
 .img_pomegue
 {
-  width: 100%;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 15px 15px 0px 0px;
+	width: 100%;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
 }
 
 /*Image frioule */
 .img_frioule
 {
-  width: 100%;
-  height: 95px;
-  object-fit: cover;
-  border-radius: 15px 15px 0px 0px;
+	width: 100%;
+	height: 95px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
 }
 
 /* Image ND */
-
 .img_ND
 {
-  width: 100%;
-  height: 115px;
-  object-fit: cover;
-  border-radius: 15px 15px 0px 0px;
+	width: 100%;
+	height: 115px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
 }
 
 /* parc longchamps */
-
 .img_longchamps
 {
-  width: 100%;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 15px 15px 0px 0px;
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
 }
-
-
-/* .art
-  {
-    margin-bottom: 40px;
-    height: 220px ;
-    width: 330px;
-    padding: 0px 0px  50px 0px;
-    object-fit: cover;
-   
-  }
-
-  .art2
-  
-    {
-    margin-bottom: 37px;
-    height: 190px;
-    width: 330px;
-    padding: 0px 0px  50px 0px;
-    object-fit: cover;
-    
-  }
-  
-
-.imgart3
-  {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    border-radius: 15px 15px 0px 0px;
-    object-fit: cover;
-   
-    
-  }
-
-  .imgart4
-  {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    border-radius: 15px 15px 0px 0px;
-    object-fit: cover;
-  }
-
-.imgartlast
-{
-  display: flex;
-  width: 100%;
-  height: 100%;
-  border-radius: 15px 15px 0px 0px;
-  object-fit: cover;
-}
-
-.artlast {
-  background-color: white;
-  margin-top: 25px;
-  border-radius: 15px;
-  box-shadow: #F2F2F2 5px 5px 5px 3px;
-  height: 170px;
-  width: 330px;
-  padding: 0px 0px  44px 0px;
-}
-
-.art1
-{
-  background-color: white;
-  margin-top: 100px;
-  border-radius: 15px ;
-  box-shadow: #F2F2F2 5px 5px 5px 3px;
-  height: 300px;
-  width: 330px;
-  padding: 0px 0px  190px 0px;
-  margin-right: 50px;
-}
-
-.artfrioule {
-  height: 120px;
-  width: 331px;
-  padding: 0px 0px 50px 0px;
-  margin-top: 50px;
-  
-}
-
-.imgart {
-  display: flex;
-  width: 100%;
-  height: 450px;
-  flex-direction: column;
-  border-radius: 15px 15px 0px 0px;
-  object-fit: cover;
-}
-
-.imgart2
-{
-  display: flex;
-  width: 100%;
-  height: 100%;
-  border-radius: 15px 15px 0px 0px;
-  box-shadow: #F2F2F2 0px 0px 5px 3px;
-  object-fit: cover;
-}
-
-
-
-
-
-*/
 
 /* Footer desktop */
-
 footer
-{ 
- 
-    display: flex;
-
-    background-color:#F2F2F2;
-    padding-top: 25px;
-    padding-left: 40px;
-    margin-top: 3%;
-    
-    
+{
+	display: flex;
+	background-color:#F2F2F2;
+	padding-top: 25px;
+	padding-left: 40px;
+	margin-top: 3%;
 }
 
 footer h1
 {
-    font-size: 1em;
+	font-size: 1em;
 }
+
 footer p
 {
-    font-size: 0.8em;
+	font-size: 0.8em;
 }
+
 .propos, .nosheb, .assistance
 {
-    width: 30%; 
+	width: 30%;
 }
-
-
-
