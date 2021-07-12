@@ -436,17 +436,16 @@ a
 .groupe2
 {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	position: relative;
-	right: 2rem;
+	
 }
 
 .titreactivites
 {
 	color: black;
 	margin-top: 45px;
-	padding-left: 55px;
 }
 
 .nomactivite
