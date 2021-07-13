@@ -93,7 +93,6 @@
    {
        flex-direction: column;
        align-items: unset;
-      
    }
     .filtreliste{
         padding: 0px;
@@ -107,6 +106,9 @@
         width: 55%;
     }
 
+    .mqfiltre{
+        flex-wrap: wrap;
+    }
 
     /* Hebergement Mobile */
 
@@ -132,12 +134,12 @@
 
     .h_carte
     {
-        border: solid #F2F2F2;
         box-shadow:  #F2F2F2 3px 5px 5px 3px;;
+        padding: 0px;
     }
 
     .h_image {
-        width: 330px;
+        width: 320px;
         height: 100px;
     }
 
@@ -184,7 +186,7 @@
     }
 
 .article_activite{
-    width: 330px;
+    width: 320px;
     margin-right: 0px;
 }
 
@@ -192,7 +194,7 @@
     height: 100px;
 }
 .article_activite_g {
-    width: 330px;
+    width: 320px;
     margin-bottom: 3%;
     height: 135px;
     margin-right: 0px;

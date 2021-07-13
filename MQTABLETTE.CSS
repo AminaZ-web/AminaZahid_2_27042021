@@ -8,7 +8,7 @@ and (orientation:portrait) {
         margin: 0px;
     }
 
-    /* Logo et Navigation Mobile*/
+    /* Logo et Navigation */
    
     .logo{
         width: 15%;
@@ -20,7 +20,7 @@ and (orientation:portrait) {
 
     
     
-      /* Titre et barre de recherche Mobile */
+      /* Titre et barre de recherche  */
 
       .titretop{
           margin-bottom: 3%;
@@ -82,6 +82,15 @@ and (orientation:portrait) {
         margin-bottom: 3%;
     }
 
+    .iconepop h1 {
+        
+        margin-left: 6%;
+    }
+    .tab_populaire{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .groupe2 {
         justify-content: center;
         flex-direction: column;
@@ -118,7 +127,7 @@ and (orientation:portrait) {
 
 @media  screen
 
-and (min-device-width : 480px)
+and (min-device-width : 480px) and (max-device-width:1024px)
 and (orientation:landscape) {
 
     
@@ -131,6 +140,11 @@ and (orientation:landscape) {
         width: 80px;
     }
 
+    .groupe2{
+        justify-content: center;
+    }
+
+    
 }
 
 @media screen and (min-device-width: 1480px)
