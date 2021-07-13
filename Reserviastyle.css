@@ -271,7 +271,7 @@ span.iconeinfo
 	flex-direction: column;
 }
 
-.h_bloc
+.heb_bloc
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -286,7 +286,7 @@ span.iconeinfo
 	border-radius: 15px 15px 0px 0px;
 }
 
-.h_carte
+.heb_carte
 {
 	background-color: white;
 	padding: 3px 3px 0px 3px;
